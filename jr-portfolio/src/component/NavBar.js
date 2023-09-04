@@ -1,9 +1,11 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from "../assets/img/logo.svg";
-import navIcon1 from "../assets/img/nav-icon1.svg";
-import navIcon2 from "../assets/img/nav-icon2.svg";
-import navIcon3 from "../assets/img/nav-icon3.svg";
+import discord from "../assets/img/discord.png";
+import github from "../assets/img/github.png";
+import linkedin from "../assets/img/linkedin.png";
+import snapchat from "../assets/img/snapchat.png";
+import instagram from "../assets/img/instagram.png";
 import { HashLink } from "react-router-hash-link";
 import { BrowserRouter as Router } from "react-router-dom";
 
@@ -74,19 +76,19 @@ export const NavBar = () => {
             <span className="navbar-text">
               <div className="social-icon">
                 <a href="https://discordapp.com/users/389945057345667077">
-                  <img src={navIcon1} alt="Discord" />
+                  <img src={discord} alt="Discord" />
                 </a>
                 <a href="https://github.com/TheWiseSailor">
-                  <img src={navIcon1} alt="Github" />
+                  <img src={github} alt="Github" />
                 </a>
                 <a href="https://www.linkedin.com/in/joseph-rudasill-2565a41ba/">
-                  <img src={navIcon1} alt="Linked-In" />
+                  <img src={linkedin} alt="Linked-In" />
                 </a>
                 <a href="https://www.snapchat.com/add/asianstudmuffin?share_id=gTwL0A4CTtWL7ns+pfxyvg&locale=en_US">
-                  <img src={navIcon2} alt="Snapchat" />
+                  <img src={snapchat} alt="Snapchat" />
                 </a>
                 <a href="https://www.instagram.com/joseph_rudasill_">
-                  <img src={navIcon3} alt="Instagram" />
+                  <img src={instagram} alt="Instagram" />
                 </a>
               </div>
               <HashLink to="#connect">
