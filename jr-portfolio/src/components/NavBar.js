@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import logo from "../assets/img/logo.png";
+import logo from "../logo.svg";
 import discord from "../assets/img/discord.png";
 import github from "../assets/img/github.png";
 import linkedin from "../assets/img/linkedin.png";
