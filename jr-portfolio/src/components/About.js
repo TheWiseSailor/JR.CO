@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/images/insetImage3.png";
-import profilePic from "../assets/images/Applemoji.jpg";
+import profilePic from "../assets/img/applemoji.png";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -88,7 +88,7 @@ export const About = () => {
                     alt="profile picture"
                   />
                   <button onClick={() => console.log("connect")}>
-                    Let’s Connect <ArrowRightCircle size={25} />
+                    Connect! <ArrowRightCircle size={25} />
                   </button>
                 </div>
               )}
