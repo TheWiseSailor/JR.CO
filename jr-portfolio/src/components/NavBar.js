@@ -1,13 +1,11 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import logo from "../logo.svg";
+import logo from "../logo.png";
 import discord from "../assets/img/discord.png";
 import github from "../assets/img/github.png";
 import linkedin from "../assets/img/linkedin.png";
 import snapchat from "../assets/img/snapchat.png";
 import instagram from "../assets/img/instagram.png";
-import { HashLink } from "react-router-hash-link";
-import { BrowserRouter as Router } from "react-router-dom";
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
