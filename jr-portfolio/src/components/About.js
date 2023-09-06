@@ -66,22 +66,23 @@ export const About = () => {
                 >
                   <span className="tagline">Welcome to JR.CO</span>
                   <h1>
-                    {`Hello! I'm Joseph`}{" "}
+                    {`Hello! I'm Joseph,`}{" "}
                     <span
                       className="txt-rotate"
                       dataPeriod="1000"
-                      data-rotate='[ "Front-End Developer", "UI/UX Designer", "Backend Knowledge" ]'
+                      data-rotate='[ "Front-End Developer", "UI/UX Designer", ]'
                     >
                       <span className="wrap">{text}</span>
                     </span>
                   </h1>
-                  <p>
+                  <p>Striving For Excellence, The Best Has Yet To Come.</p>
+                  {/* <p>
                     I hold an Associate's degree in Science (AS) and possess a a
                     moderate grasp of frontend frameworks. My professional
                     strengths include exceptional interpersonal skills and adept
                     communication, facilitating productive collaborations and
                     the timely accomplishment of goals.
-                  </p>
+                  </p> */}
                   <img
                     className="profilePic"
                     src={profilePic}
