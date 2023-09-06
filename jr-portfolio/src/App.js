@@ -1,6 +1,6 @@
 import logo from "./logo.png";
 import "./App.css";
-import "./components/AboutMe.js";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import { NavBar } from "./components/NavBar";
 function App() {
