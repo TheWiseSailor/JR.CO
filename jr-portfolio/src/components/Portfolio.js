@@ -3,6 +3,10 @@ import { ProjectDetails } from "./ProjectDetails";
 import jrphotographyv1 from "../assets/img/Photographyv1.png";
 import jrphotographyv2 from "../assets/img/Photographyv2.png";
 import jrportfoliov1 from "../assets/img/jrportfoliov1.png";
+import jrportfoliov2 from "../assets/img/jrportfoliov2.png";
+import WeatherDashboard from "../assets/img/WeatherDashboard.png";
+import NoteTaker from "../assets/img/NoteTaker.png";
+import MarvelFlicks from "../assets/img/MarvelFlicks.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -22,16 +26,35 @@ export const Portfolio = () => {
       imgUrl: jrphotographyv2,
     },
     {
-      title: "JR Portfolio",
+      title: "JR Portfolio V1",
       description:
-        " JR Portfolio is a modern personal portfolio, showcasing my skills, projects, and resume. ",
+        " JR Portfolio V1 is a modern personal portfolio, showcasing my skills, projects, and resume. ",
       imgUrl: jrportfoliov1,
     },
+    // NOTE: THE ORIGINAL AUTHOR OF THE PROJECT IS LISTED WITHIN THE GITHUB REPO
     {
-      // title: "",
-      // description:
-      //   "",
-      // imgUrl: ,
+      title: "JR Portfolio V2",
+      description:
+        "JR Portfolio V2 is a more significant version of v1, considering this has the implementation of REACT, as well as many other packeges, to make it one, beautiful and minimalist portfolio!",
+      imgUrl: jrportfoliov2,
+    },
+    {
+      title: "Weather Dashboard",
+      description:
+        "Weather Dashboard is a user-friendly interface for accessing real-time weather information and forecasts, featuring location search, current weather displays, and customizable weather metric options.",
+      imgUrl: WeatherDashboard,
+    },
+    {
+      title: "Note Taker",
+      description:
+        "The Note Taker app simplifies note organization and storage with a user-friendly interface, powered by the efficient Express.js framework for dependable performance.",
+      imgUrl: NoteTaker,
+    },
+    {
+      title: "Marvel Flicks",
+      description:
+        "Marvel Flicks: Your go-to app for Marvel movies and comics, built with HTML, Tailwind CSS, and JavaScript for easy exploration. Find your avorite Marvel Movie now! ",
+      imgUrl: MarvelFlicks,
     },
     {
       // title: "",
@@ -60,7 +83,7 @@ export const Portfolio = () => {
                   }
                   id="portfolio-container"
                 >
-                  <h2>Portfolio of projects</h2>
+                  <h2>Portfolio</h2>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
                       variant="pills"
@@ -68,13 +91,13 @@ export const Portfolio = () => {
                       id="pills-tab"
                     >
                       <Nav.Item>
-                        <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                        <Nav.Link eventKey="first"> Projects</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                        <Nav.Link eventKey="second">Group Projects</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                        <Nav.Link eventKey="third">Future</Nav.Link>
                       </Nav.Item>
                     </Nav>
                     <Tab.Content
@@ -92,13 +115,14 @@ export const Portfolio = () => {
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
                         <p>
-                          More projects coming soon!
+                          Will integrate into file soon! For now it will just be
+                          on Projects.
                           <p>Stay tuned!</p>
                         </p>
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
                         <p>
-                          More projects coming soon!
+                          Will integrate into file soon!
                           <p>Stay tuned!</p>
                         </p>
                       </Tab.Pane>
