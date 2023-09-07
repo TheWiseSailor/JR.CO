@@ -1,6 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectDetails } from "./ProjectDetails";
 import jrphotographyv1 from "../assets/img/Photographyv1.png";
+import jrphotographyv2 from "../assets/img/Photographyv2.png";
+import jrportfoliov1 from "../assets/img/jrportfoliov1.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -9,20 +11,21 @@ export const Portfolio = () => {
     {
       title: "JR Photography V1",
       description:
-        "JR Photography is a beautiful landing page made for any one who wants to reach out to others and show their expertise in the field of Photography!",
+        "JR Photography is a basic, but beautiful landing page made for any one who wants to reach out to others and show their expertise in the field of Photography!",
       imgUrl: jrphotographyv1,
     },
     {
-      // title: "",
-      // description:
-      //   "",
-      // imgUrl: ,
+      title: "JR Photography V2",
+      description:
+        "JR Photography is a modern take on landing pages, made for any one who wants to reach out to others and show their expertise in the field of Photography!",
+
+      imgUrl: jrphotographyv2,
     },
     {
-      // title: "",
-      // description:
-      //   " ",
-      // imgUrl: ,
+      title: "JR Portfolio",
+      description:
+        " JR Portfolio is a modern personal portfolio, showcasing my skills, projects, and resume. ",
+      imgUrl: jrportfoliov1,
     },
     {
       // title: "",
