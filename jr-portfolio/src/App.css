@@ -327,6 +327,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .headerImg {
   animation: updown 3s linear infinite;
+  padding-top: 50px;
 }
 @keyframes updown {
   0% {
