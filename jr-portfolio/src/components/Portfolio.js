@@ -7,6 +7,8 @@ import jrportfoliov2 from "../assets/img/jrportfoliov2.png";
 import WeatherDashboard from "../assets/img/WeatherDashboard.png";
 import NoteTaker from "../assets/img/NoteTaker.png";
 import MarvelFlicks from "../assets/img/MarvelFlicks.png";
+import JavascriptCodeQuiz from "../assets/img/JavascriptQuiz.png";
+import WorkDayScheduler from "../assets/img/WorkDayScheduler.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -57,17 +59,41 @@ export const Portfolio = () => {
       imgUrl: MarvelFlicks,
     },
     {
-      // title: "",
-      // description:
-      //   "",
-      // imgUrl: ,
+      title: "JavaScript Code Quiz",
+      description:
+        "JavaScript Code Quiz is an interactive assessment tool that tests users' knowledge of JavaScript programming through a series of questions and challenges.",
+      imgUrl: JavascriptCodeQuiz,
     },
     {
-      // title: "",
-      // description:
-      //   "",
-      // imgUrl: ,
+      title: "Workday Scheduler",
+      description:
+        "A Workday Scheduler is a digital tool designed to help users plan and organize their workday activities and appointments from 9 A.M. - 5 P.M., efficiently.",
+      imgUrl: WorkDayScheduler,
     },
+    // {
+    //   // title: "",
+    //   // description:
+    //   //   "",
+    //   // imgUrl: ,
+    // },
+    // {
+    //   // title: "",
+    //   // description:
+    //   //   "",
+    //   // imgUrl: ,
+    // },
+    // {
+    //   // title: "",
+    //   // description:
+    //   //   "",
+    //   // imgUrl: ,
+    // },
+    // {
+    //   // title: "",
+    //   // description:
+    //   //   "",
+    //   // imgUrl: ,
+    // },
   ];
 
   return (
