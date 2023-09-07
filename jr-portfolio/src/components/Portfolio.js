@@ -37,7 +37,7 @@ export const Portfolio = () => {
     {
       title: "JR Portfolio V2",
       description:
-        "JR Portfolio V2 is a more significant version of v1, considering this has the implementation of REACT, as well as many other packeges, to make it one, beautiful and minimalist portfolio!",
+        "JR Portfolio V2 is a more significant version of v1, considering this has the implementation of REACT JS, as well as many other packages, to make it one, beautiful and minimalist portfolio!",
       imgUrl: jrportfoliov2,
     },
     {
