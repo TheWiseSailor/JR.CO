@@ -488,11 +488,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .contact img {
   width: 92%;
+  padding-top: 100px;
 }
 .contact h2 {
   font-size: 45px;
   font-weight: 700;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+  padding-top: 150px;
 }
 .contact form input,
 .contact form textarea {
@@ -500,9 +502,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 20px;
+  padding: 18px 26px;
   color: #fff;
   margin: 0 0 8px 0;
-  padding: 18px 26px;
   font-weight: 500;
   font-size: 18px;
   letter-spacing: 0.8px;
@@ -531,7 +533,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 14px 48px;
   font-size: 18px;
   margin-top: 25px;
-  margin-bottom: 25px;
+  margin-bottom: 100px;
   border-radius: 30px;
   position: relative;
   transition: 0.3s ease-in-out;
@@ -667,4 +669,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .contact a:hover {
   text-decoration: underline; /* Add an underline on hover if desired */
+}
+@media (max-width: 1200px) {
+  #contact,
+  .contact {
+    padding-top: 70px; /* Add padding-top for mobile view */
+  }
 }
