@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { NavBar } from "./Header";
-import { Hero } from "./pages/Homepage";
+import { Homepage } from "./pages/Homepage";
 import { About } from "./pages/About";
 import { Portfolio } from "./pages/Portfolio";
 import { Contact } from "./pages/Contact";
@@ -25,7 +25,7 @@ export default function PageContainer() {
       return <Contact />;
     }
     // defaults to Hero for Home
-    return <Hero />;
+    return <Homepage />;
   };
 
   const onUpdateActiveLink = (page) => setActiveLink(page);
