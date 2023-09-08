@@ -569,3 +569,102 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 20px;
   width: auto;
 }
+
+/************ Resume Css ************/
+.resume {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 0 100px 0;
+  margin-top: 150px;
+}
+.resume-welcome-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.resume h2 {
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.resume-welcome {
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 8px 10px;
+  background: linear-gradient(90.21deg, #0cb9f8 -5.91%, #2a3ef7 111.58%);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 36px;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.resumePic {
+  width: 40%;
+  height: auto;
+  animation: none;
+  border-radius: 10px;
+}
+
+#resume {
+  margin: 30px 0 0 15%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#resume a {
+  margin: 35px;
+  font-size: 30px;
+  color: white;
+}
+
+.skillsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  grid-auto-rows: auto;
+  height: auto;
+}
+.skillsGrid img {
+  height: 75%;
+  width: 75%;
+}
+.skills {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: 300px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+/************ Footer CSS ************/
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  justify-content: center;
+}
+.contact,
+.copyright {
+  padding-bottom: 10px;
+}
+
+.contact a {
+  color: #fff; /* Link color */
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline; /* Add an underline on hover if desired */
+}
