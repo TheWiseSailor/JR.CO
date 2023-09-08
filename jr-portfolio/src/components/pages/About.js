@@ -103,7 +103,7 @@ export const About = () => {
                     isVisible ? "animate__animated animate__zoomIn" : ""
                   }
                 >
-                  <img className="headerImg" src={headerImg} alt="Header Img" />
+                  <img className="headerImg" src={headerImg} alt="headerImg" />
                 </div>
               )}
             </TrackVisibility>
