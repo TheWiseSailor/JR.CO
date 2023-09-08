@@ -1,18 +1,13 @@
-import logo from "./logo.png";
 import "./App.css";
-import "./components/About.js";
+import PageContainer from "./components/PageContainer";
+import { Footer } from "./components/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { NavBar } from "./components/NavBar";
-import { About } from "./components/About.js";
-import { Portfolio } from "./components/Portfolio";
-import { Contact } from "./components/Contact";
+
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <About />
-      <Portfolio />
-      <Contact />
+      <PageContainer />
+      <Footer />
     </div>
   );
 }

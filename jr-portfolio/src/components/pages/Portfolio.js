@@ -1,14 +1,14 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectDetails } from "./ProjectDetails";
-import jrphotographyv1 from "../assets/img/Photographyv1.png";
-import jrphotographyv2 from "../assets/img/Photographyv2.png";
-import jrportfoliov1 from "../assets/img/jrportfoliov1.png";
-import jrportfoliov2 from "../assets/img/jrportfoliov2.png";
-import WeatherDashboard from "../assets/img/WeatherDashboard.png";
-import NoteTaker from "../assets/img/NoteTaker.png";
-import MarvelFlicks from "../assets/img/MarvelFlicks.png";
-import JavascriptCodeQuiz from "../assets/img/JavascriptQuiz.png";
-import WorkDayScheduler from "../assets/img/WorkDayScheduler.png";
+import jrphotographyv1 from "../../assets/img/Photographyv1.png";
+import jrphotographyv2 from "../../assets/img/Photographyv2.png";
+import jrportfoliov1 from "../../assets/img/jrportfoliov1.png";
+import jrportfoliov2 from "../../assets/img/jrportfoliov2.png";
+import WeatherDashboard from "../../assets/img/WeatherDashboard.png";
+import NoteTaker from "../../assets/img/NoteTaker.png";
+import MarvelFlicks from "../../assets/img/MarvelFlicks.png";
+import JavascriptCodeQuiz from "../../assets/img/JavascriptQuiz.png";
+import WorkDayScheduler from "../../assets/img/WorkDayScheduler.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
