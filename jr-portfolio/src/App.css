@@ -40,9 +40,12 @@ ul {
   line-height: normal;
   text-decoration: none;
 }
-
+a {
+  color: white;
+}
 a:hover {
   text-decoration: none;
+  color: white;
 }
 
 img {
@@ -76,6 +79,26 @@ p.danger {
   color: red;
 }
 
+.custom-link {
+  text-decoration: none; /* Remove underline */
+  color: black; /* Make the text black */
+}
+
+.connect1 {
+  /* Style your button as desired */
+  background-color: rgba(214, 195, 195, 0);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+This code will make the text black, remove the underline from the link, and style the button with a black background, white text, and rounded corners. You can adjust the button styles as needed to fit your design.
+
+
+
+
+
+
 /************ Navbar Css ************/
 nav.navbar {
   padding: 18px 0;
@@ -107,6 +130,8 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
 span.navbar-text {
   display: flex;
   align-items: center;
+  text-align: center;
+  padding-left: 45px;
 }
 .social-icon {
   display: inline-block;
@@ -146,43 +171,7 @@ span.navbar-text {
   filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%)
     hue-rotate(346deg) brightness(95%) contrast(86%);
 }
-.navbar-text button {
-  font-weight: 700;
-  color: #fff;
-  border: 1px solid #ffffff;
-  padding: 18px 34px;
-  font-size: 18px;
-  margin-left: 18px;
-  position: relative;
-  background-color: transparent;
-  transition: 0.9s ease-in-out;
-  border-radius: 30px;
-}
-.navbar-text button span {
-  z-index: 1;
-}
-.navbar-text button::before {
-  content: "";
-  width: 0%;
-  height: 100%;
-  position: absolute;
-  background-color: #e0dddd;
-  left: 0;
-  top: 0;
-  z-index: -1;
-  transition: 0.3s ease-in-out;
-  border-radius: 30px;
-}
-.navbar-text button:hover {
-  color: #121212;
-}
-.navbar-text button:hover::before {
-  content: "";
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  border-radius: 30px;
-}
+
 nav.navbar .navbar-toggler:active,
 nav.navbar .navbar-toggler:focus {
   outline: none;

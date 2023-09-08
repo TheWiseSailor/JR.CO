@@ -88,8 +88,13 @@ export const Homepage = () => {
                     src={profilePic}
                     alt="profile picture"
                   />
-                  <button onClick={() => console.log("connect")}>
-                    Connect! <ArrowRightCircle size={25} />
+                  <button class="connect1">
+                    <a
+                      class="custom-link"
+                      href="https://www.linkedin.com/in/joseph-rudasill-2565a41ba/"
+                    >
+                      Connect! <ArrowRightCircle size={25} />
+                    </a>
                   </button>
                 </div>
               )}
