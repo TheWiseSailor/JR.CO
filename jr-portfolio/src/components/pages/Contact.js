@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import contactImg from "../assets/img/background6.png";
+import contactImg from "../../assets/img/background6.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 // NOTE IMAGE SOURCE CREDIT: <a href="https://www.freepik.com/free-vector/email-marketing-internet-chatting-24-hours-support_12084798.htm#query=contact&position=26&from_view=keyword&track=sph">Image by vectorjuice</a> on Freepik
