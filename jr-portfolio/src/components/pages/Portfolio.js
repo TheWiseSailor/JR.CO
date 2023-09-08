@@ -109,7 +109,6 @@ export const Portfolio = () => {
                   }
                   id="portfolio-container"
                 >
-                  <h2>Portfolio</h2>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
                       variant="pills"
