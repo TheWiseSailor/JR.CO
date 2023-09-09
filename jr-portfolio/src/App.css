@@ -395,15 +395,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   text-align: center;
 }
-.project p {
-  color: #b8b8b8;
-  font-size: 18px;
-  letter-spacing: 0.8px;
-  line-height: 1.5em;
-  margin: 14px auto 30px auto;
-  text-align: center;
-  width: 56%;
-}
+
 .project .nav.nav-pills {
   width: 72%;
   margin: 0 auto;
@@ -509,6 +501,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 35%;
   right: 0;
   z-index: -4;
+}
+
+.rounded-image {
+  border-radius: 30px;
+  border: 1px solid rgb(0, 0, 0);
+  margin-top: 40px;
 }
 /************ Contact Css ************/
 .contact {

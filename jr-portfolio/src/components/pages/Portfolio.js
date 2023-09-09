@@ -1,3 +1,4 @@
+import React from "react";
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectDetails } from "./ProjectDetails";
 import jrphotographyv1 from "../../assets/img/Photographyv1.png";
@@ -16,19 +17,15 @@ export const Portfolio = () => {
   const projects = [
     {
       title: "JR Photography V1",
-      description:
-        "JR Photography is a basic, but beautiful landing page made for any one who wants to reach out to others and show their expertise in the field of Photography!",
+
       imgUrl: jrphotographyv1,
       githubLink:
-        // this is a test
         "https://github.com/TheWiseSailor/professional-react-portfolio",
       deployLink:
         "https://github.com/TheWiseSailor/professional-react-portfolio",
     },
     {
       title: "JR Photography V2",
-      description:
-        "JR Photography is a modern take on landing pages, made for any one who wants to reach out to others and show their expertise in the field of Photography!",
 
       imgUrl: jrphotographyv2,
     },
@@ -41,64 +38,34 @@ export const Portfolio = () => {
     // NOTE: THE ORIGINAL AUTHOR OF THE PROJECT IS LISTED WITHIN THE GITHUB REPO
     {
       title: "JR Portfolio V2",
-      description:
-        "JR Portfolio V2 is a more significant version of v1, considering this has the implementation of REACT JS, as well as many other packages, to make it one, beautiful and minimalist portfolio!",
+
       imgUrl: jrportfoliov2,
     },
     {
       title: "Weather Dashboard",
-      description:
-        "Weather Dashboard is a user-friendly interface for accessing real-time weather information and forecasts, featuring location search, current weather displays, and customizable weather metric options.",
+
       imgUrl: WeatherDashboard,
     },
     {
       title: "Note Taker",
-      description:
-        "The Note Taker app simplifies note organization and storage with a user-friendly interface, powered by the efficient Express.js framework for dependable performance.",
+
       imgUrl: NoteTaker,
     },
     {
       title: "Marvel Flicks",
-      description:
-        "Marvel Flicks: Your go-to app for Marvel movies and comics, built with HTML, Tailwind CSS, and JavaScript for easy exploration. Find your avorite Marvel Movie now! ",
+
       imgUrl: MarvelFlicks,
     },
     {
       title: "JavaScript Code Quiz",
-      description:
-        "JavaScript Code Quiz is an interactive assessment tool that tests users' knowledge of JavaScript programming through a series of questions and challenges.",
+
       imgUrl: JavascriptCodeQuiz,
     },
     {
       title: "Workday Scheduler",
-      description:
-        "A Workday Scheduler is a digital tool designed to help users plan and organize their workday activities and appointments from 9 A.M. - 5 P.M., efficiently.",
+
       imgUrl: WorkDayScheduler,
     },
-    // {
-    //   // title: "",
-    //   // description:
-    //   //   "",
-    //   // imgUrl: ,
-    // },
-    // {
-    //   // title: "",
-    //   // description:
-    //   //   "",
-    //   // imgUrl: ,
-    // },
-    // {
-    //   // title: "",
-    //   // description:
-    //   //   "",
-    //   // imgUrl: ,
-    // },
-    // {
-    //   // title: "",
-    //   // description:
-    //   //   "",
-    //   // imgUrl: ,
-    // },
   ];
 
   return (
@@ -164,7 +131,6 @@ export const Portfolio = () => {
           </Col>
         </Row>
       </Container>
-      {/* <img className="background-image-right" src={colorSharp2}></img> */}
     </section>
   );
 };

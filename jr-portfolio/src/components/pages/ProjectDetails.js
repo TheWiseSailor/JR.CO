@@ -1,15 +1,31 @@
-import { Col } from "react-bootstrap";
+import React from "react";
 
-export const ProjectDetails = ({ title, description, imgUrl }) => {
+export const ProjectDetails = ({
+  title,
+  description,
+  imgUrl,
+  githubLink,
+  deployLink,
+}) => {
   return (
-    <Col size={12} sm={6} md={4}>
-      <div className="proj-imgbx">
-        <img src={imgUrl} />
-        <div className="proj-txtx">
-          <h4>{title}</h4>
-          <span>{description}</span>
+    <div className="col-lg-4 col-md-6 col-sm-12">
+      <div className="project-card">
+        <img src={imgUrl} alt={title} className="rounded-image" />
+        <h3>{title}</h3>
+        <p>{description}</p>
+        <div className="project-buttons button-spacing">
+          {githubLink && (
+            <a href={githubLink} target="_blank" rel="noopener noreferrer">
+              <button className="btn btn-primary">GitHub</button>
+            </a>
+          )}
+          {deployLink && (
+            <a href={deployLink} target="_blank" rel="noopener noreferrer">
+              <button className="btn btn-success">Deployed Site</button>
+            </a>
+          )}
         </div>
       </div>
-    </Col>
+    </div>
   );
 };
