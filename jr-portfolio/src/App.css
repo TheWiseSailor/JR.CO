@@ -604,27 +604,23 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /************ Resume Css ************/
-.resume {
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 100px 0 100px 0;
-  margin-top: 150px;
-}
 .resume-welcome-box {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; /* Center horizontally */
+  text-align: center; /* Center text */
 }
+
 .resume h2 {
   font-size: 45px;
   font-weight: 700;
   margin-bottom: 30px;
 }
+
 .resume-welcome {
   font-weight: 700;
   letter-spacing: 0.8px;
-  padding: 8px 10px;
+  padding: 18px 10px 10px;
   background: none;
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 24px;
@@ -632,17 +628,24 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-bottom: 36px;
   display: inline-block;
   border-radius: 10px;
+  width: 300px;
+  text-decoration: none;
 }
 
 .resumePic {
   width: 40%;
-  height: auto;
+  height: 450px;
   animation: none;
   border-radius: 50px;
-}
+  margin: 0 auto; /* Center horizontally */
 
+  @media (max-width: 1000px) {
+    height: 300px;
+    width: 300px;
+  }
+}
 #resume {
-  margin: 30px 0 0 15%;
+  margin: 30px auto; /* Center horizontally */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -660,17 +663,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   gap: 20px;
   grid-auto-rows: auto;
   height: auto;
+  justify-content: center; /* Center grid items horizontally */
 }
+
 .skillsGrid img {
   height: 75%;
   width: 75%;
 }
+
 .skills {
   background-color: none;
   display: flex;
   flex-direction: column;
   margin-left: auto;
-  margin-right: 450px;
+  margin-right: auto; /* Center horizontally */
   text-align: center;
   justify-content: center;
   align-items: center;

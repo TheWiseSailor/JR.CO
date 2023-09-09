@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Resume = () => {
+export const Skills = () => {
   return (
     <div className="Skills">
       <h2 className="resume-welcome">Skills</h2>
