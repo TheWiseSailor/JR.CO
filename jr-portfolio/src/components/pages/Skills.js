@@ -4,6 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 export const Skills = () => {
   return (
     <section className="skills" id="skills">
+      <div class="skill-title">Skills</div>
       <Container>
         <Row className="skill-images">
           <div className="skillsGrid">

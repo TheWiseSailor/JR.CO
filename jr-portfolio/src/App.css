@@ -662,6 +662,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   padding: 40px 0; /* Adjust the padding as needed */
 }
+.skill-title {
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 10px 10px 10px;
+  background: none;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  font-size: 24px;
+
+  display: inline-block;
+  border-radius: 10px;
+  width: 100px;
+  text-decoration: none;
+}
 
 .skill-images {
   display: flex;
