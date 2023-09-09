@@ -10,6 +10,8 @@ import NoteTaker from "../../assets/img/NoteTaker.png";
 import MarvelFlicks from "../../assets/img/MarvelFlicks.png";
 import JavascriptCodeQuiz from "../../assets/img/JavascriptQuiz.png";
 import WorkDayScheduler from "../../assets/img/WorkDayScheduler.png";
+import PasswordGenerator from "../../assets/img/PasswordGenerator.png";
+import "animate.css";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -24,7 +26,8 @@ export const Portfolio = () => {
     {
       title: "JR Portfolio V2",
       imgUrl: jrportfoliov2,
-      githubLink: "",
+      githubLink:
+        "https://github.com/TheWiseSailor/professional-react-portfolio",
       deployLink: "",
     },
     {
@@ -54,26 +57,32 @@ export const Portfolio = () => {
     {
       title: "Note Taker",
       imgUrl: NoteTaker,
-      githubLink: "",
-      deployLink: "",
+      githubLink: "https://github.com/TheWiseSailor/Express.js-Note-Taker",
+      deployLink: "https://note-taker-69-f0898b1dc611.herokuapp.com/",
     },
     {
       title: "Marvel Flicks",
       imgUrl: MarvelFlicks,
-      githubLink: "",
-      deployLink: "",
+      githubLink: "https://github.com/JHeeebert/marvel-flicks",
+      deployLink: "https://jheeebert.github.io/marvel-flicks/",
     },
     {
       title: "JavaScript Code Quiz",
       imgUrl: JavascriptCodeQuiz,
-      githubLink: "",
-      deployLink: "",
+      githubLink: "https://github.com/TheWiseSailor/Javascript-Code-Quiz",
+      deployLink: "https://thewisesailor.github.io/Javascript-Code-Quiz/",
     },
     {
       title: "Workday Scheduler",
       imgUrl: WorkDayScheduler,
-      githubLink: "",
-      deployLink: "",
+      githubLink: "https://github.com/TheWiseSailor/Work-Day-Scheduler",
+      deployLink: "https://thewisesailor.github.io/Work-Day-Scheduler/",
+    },
+    {
+      title: "Password Generator",
+      imgUrl: PasswordGenerator,
+      githubLink: "https://github.com/TheWiseSailor/Password-Generator",
+      deployLink: "https://thewisesailor.github.io/Password-Generator/",
     },
   ];
 
