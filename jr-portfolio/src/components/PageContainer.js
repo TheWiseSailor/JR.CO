@@ -1,11 +1,13 @@
 import React, { useState } from "react";
-import { NavBar } from "./Header";
+
+import { Header } from "./Header";
 import { Homepage } from "./pages/Homepage";
 import { About } from "./pages/About";
 import { Portfolio } from "./pages/Portfolio";
 import { Contact } from "./pages/Contact";
 import { Resume } from "./pages/Resume";
 import { Skills } from "./pages/Skills";
+import { Header } from "./Header";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function PageContainer() {
@@ -38,7 +40,7 @@ export default function PageContainer() {
   return (
     <div>
       {/* Pass activeLink from state and the function to update it */}
-      <NavBar activeLink={activeLink} onUpdateActiveLink={onUpdateActiveLink} />
+      <Header activeLink={activeLink} onUpdateActiveLink={onUpdateActiveLink} />
       {/* Call renderPage method which will return a component  */}
       {renderPage()}
     </div>

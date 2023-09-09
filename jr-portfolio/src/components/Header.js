@@ -1,26 +1,13 @@
 import { useEffect, useState } from "react";
-import { Navbar, Container, Nav } from "react-bootstrap";
-
+import { NavBar } from "./NavBar";
 import logo from "../logo.png";
 import discord from "../assets/img/discord.png";
 import github from "../assets/img/github.png";
 import linkedin from "../assets/img/linkedin.png";
 import snapchat from "../assets/img/snapchat.png";
 import instagram from "../assets/img/instagram.png";
-export const NavBar = ({ activeLink, onUpdateActiveLink }) => {
-  const [scrolled, setScrolled] = useState(false);
-
-  useEffect(() => {
-    const onScroll = () => {
-      if (window.scrollY > 50) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
-    };
-    window.addEventListener("scroll", onScroll);
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
+export const Header = ({ activeLink, onUpdateActiveLink }) => {
+  const [scrolled] = useState(false);
   return (
     <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
       <Container>
