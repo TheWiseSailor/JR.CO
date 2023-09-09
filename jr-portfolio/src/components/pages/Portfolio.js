@@ -19,6 +19,11 @@ export const Portfolio = () => {
       description:
         "JR Photography is a basic, but beautiful landing page made for any one who wants to reach out to others and show their expertise in the field of Photography!",
       imgUrl: jrphotographyv1,
+      githubLink:
+        // this is a test
+        "https://github.com/TheWiseSailor/professional-react-portfolio",
+      deployLink:
+        "https://github.com/TheWiseSailor/professional-react-portfolio",
     },
     {
       title: "JR Photography V2",
