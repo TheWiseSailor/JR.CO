@@ -5,6 +5,7 @@ import { About } from "./pages/About";
 import { Portfolio } from "./pages/Portfolio";
 import { Contact } from "./pages/Contact";
 import { Resume } from "./pages/Resume";
+import { Skills } from "./pages/Skills";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function PageContainer() {
@@ -24,6 +25,9 @@ export default function PageContainer() {
     }
     if (activeLink === "resume") {
       return <Resume />;
+    }
+    if (activeLink === "skills") {
+      return <Skills />;
     }
     // defaults to Hero for Home
     return <Homepage />;

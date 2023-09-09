@@ -112,6 +112,12 @@ nav.navbar.scrolled {
 nav.navbar a.navbar-brand {
   width: 9%;
 }
+@media (max-width: 768px) {
+  nav.navbar a.navbar-brand {
+    width: 15%;
+  }
+}
+
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
   color: #fffdfd !important;
@@ -126,14 +132,17 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
 }
 span.navbar-text {
   display: flex;
+  justify-content: center;
   align-items: center;
   text-align: center;
-  padding-left: 45px;
 }
 .social-icon {
   display: inline-block;
   margin-left: 14px;
+  text-align: center;
+  position: relative;
 }
+
 .social-icon a {
   width: 42px;
   height: 42px;
@@ -616,10 +625,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
-  background: linear-gradient(90.21deg, #0cb9f8 -5.91%, #2a3ef7 111.58%);
+  background: none;
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 24px;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 36px;
   display: inline-block;
   border-radius: 10px;
@@ -629,7 +638,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 40%;
   height: auto;
   animation: none;
-  border-radius: 10px;
+  border-radius: 50px;
 }
 
 #resume {
@@ -641,13 +650,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 #resume a {
   margin: 35px;
-  font-size: 30px;
+  font-size: 16px;
   color: white;
 }
 
 .skillsGrid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   grid-auto-rows: auto;
   height: auto;
@@ -657,11 +666,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 75%;
 }
 .skills {
-  background-color: whitesmoke;
+  background-color: none;
   display: flex;
   flex-direction: column;
   margin-left: auto;
-  margin-right: 300px;
+  margin-right: 450px;
   text-align: center;
   justify-content: center;
   align-items: center;
