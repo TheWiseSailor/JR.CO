@@ -637,7 +637,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: 450px;
   animation: none;
   border-radius: 50px;
-  margin: 0 auto; /* Center horizontally */
+  margin: 0 auto;
 
   @media (max-width: 1000px) {
     height: 300px;
@@ -645,7 +645,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 #resume {
-  margin: 30px auto; /* Center horizontally */
+  margin: 30px auto;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -658,30 +658,43 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /***********************Skills***********************/
+.skills {
+  text-align: center;
+  padding: 40px 0; /* Adjust the padding as needed */
+}
 
-.SkillsContainer {
+.skill-images {
   display: flex;
-  flex-direction: column;
-  align-items: center; /* Center items vertically */
+  flex-wrap: wrap;
   justify-content: center;
-  min-height: 100vh;
 }
 
 .skillsGrid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 15px;
-  grid-auto-rows: auto;
-  text-align: center;
+  display: flex;
+  grid-template-columns: repeat(3, 2fr);
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 200px;
+  gap: 30px; /* Adjust the gap between icons */
 }
 
 .skillsGrid img {
-  max-height: 80%; /* Use max-height instead of height to maintain aspect ratio */
-  width: 40%;
+  max-width: 120px; /* Set a fixed image size of 120px */
+  height: auto;
 }
 
-.resume-welcome {
-  margin-bottom: 20px;
+/* Media Queries for Tablet and Mobile */
+@media (max-width: 991px) {
+  .skillsGrid {
+    gap: 10px; /* Adjust the gap for smaller screens */
+  }
+}
+
+@media (max-width: 767px) {
+  .skillsGrid {
+    flex-direction: column; /* Stack icons in a single column for mobile */
+    align-items: center;
+  }
 }
 /************ Footer CSS ************/
 .footer {
@@ -701,16 +714,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .contact a {
-  color: #fff; /* Link color */
+  color: #fff;
   text-decoration: none;
 }
 
 .contact a:hover {
-  text-decoration: underline; /* Add an underline on hover if desired */
+  text-decoration: underline;
 }
 @media (max-width: 1200px) {
   #contact,
   .contact {
-    padding-top: 70px; /* Add padding-top for mobile view */
+    padding-top: 70px;
   }
 }

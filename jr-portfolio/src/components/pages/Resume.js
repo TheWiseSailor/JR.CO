@@ -5,8 +5,6 @@ export const Resume = () => {
   return (
     <section className="resume" id="resume">
       <div className="container">
-        {" "}
-        {/* Add a container for centering */}
         <div className="resume-welcome-box">
           <h1 className="resume-welcome">
             Hello There! <p>I'm Joseph Rudasill</p>
