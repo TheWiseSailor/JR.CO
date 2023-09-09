@@ -18,16 +18,14 @@ export const Portfolio = () => {
     {
       title: "JR Portfolio V1",
       imgUrl: jrportfoliov1,
-      githubLink: "",
-      deployLink: "",
-      logLink: "",
+      githubLink: "https://github.com/TheWiseSailor/JR-Portfolio",
+      deployLink: "https://thewisesailor.github.io/JR-Portfolio/",
     },
     {
       title: "JR Portfolio V2",
       imgUrl: jrportfoliov2,
       githubLink: "",
       deployLink: "",
-      logLink: "",
     },
     {
       title: "JR Photography V1",
@@ -36,7 +34,6 @@ export const Portfolio = () => {
       githubLink:
         "https://github.com/TheWiseSailor/professional-react-portfolio",
       deployLink: "https://thewisesailor.github.io/JR-CO/",
-      logLink: "https://github.com/TheWiseSailor/JR-CO/commits/main",
     },
     {
       title: "JR Photography V2",
@@ -44,8 +41,6 @@ export const Portfolio = () => {
       imgUrl: jrphotographyv2,
       githubLink: "https://github.com/TheWiseSailor/JR-Photography-v2",
       //deployLink: "", WORKING ON DEPLOYING THIS TO HEROKU. THIS WAS A SIDE PROJECT
-      logLink:
-        "https://github.com/TheWiseSailor/JR-Photography-v2/commits/main",
     },
 
     // NOTE: THE ORIGINAL AUTHOR OF THE PROJECT IS LISTED WITHIN THE GITHUB REPO
@@ -53,37 +48,32 @@ export const Portfolio = () => {
     {
       title: "Weather Dashboard",
       imgUrl: WeatherDashboard,
-      githubLink: "",
-      deployLink: "",
-      logLink: "",
+      githubLink: "https://github.com/TheWiseSailor/Weather-DashBoard",
+      deployLink: "https://thewisesailor.github.io/Weather-DashBoard/",
     },
     {
       title: "Note Taker",
       imgUrl: NoteTaker,
       githubLink: "",
       deployLink: "",
-      logLink: "",
     },
     {
       title: "Marvel Flicks",
       imgUrl: MarvelFlicks,
       githubLink: "",
       deployLink: "",
-      logLink: "",
     },
     {
       title: "JavaScript Code Quiz",
       imgUrl: JavascriptCodeQuiz,
       githubLink: "",
       deployLink: "",
-      logLink: "",
     },
     {
       title: "Workday Scheduler",
       imgUrl: WorkDayScheduler,
       githubLink: "",
       deployLink: "",
-      logLink: "",
     },
   ];
 

@@ -6,7 +6,6 @@ export const ProjectDetails = ({
   imgUrl,
   githubLink,
   deployLink,
-  logLink,
 }) => {
   return (
     <div className="col-lg-4 col-md-6 col-sm-12">
@@ -20,11 +19,7 @@ export const ProjectDetails = ({
               <button className="btn ">GitHub</button>
             </a>
           )}
-          {logLink && (
-            <a href={logLink} target="_blank" rel="noopener noreferrer">
-              <button className="btn ">GitLogs</button>
-            </a>
-          )}
+
           {deployLink && (
             <a href={deployLink} target="_blank" rel="noopener noreferrer">
               <button className="btn ">Live Demo</button>
