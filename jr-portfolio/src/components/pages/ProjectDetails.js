@@ -6,6 +6,7 @@ export const ProjectDetails = ({
   imgUrl,
   githubLink,
   deployLink,
+  logLink,
 }) => {
   return (
     <div className="col-lg-4 col-md-6 col-sm-12">
@@ -16,12 +17,17 @@ export const ProjectDetails = ({
         <div className="project-buttons button-spacing">
           {githubLink && (
             <a href={githubLink} target="_blank" rel="noopener noreferrer">
-              <button className="btn btn-primary">GitHub</button>
+              <button className="btn ">GitHub</button>
+            </a>
+          )}
+          {logLink && (
+            <a href={logLink} target="_blank" rel="noopener noreferrer">
+              <button className="btn ">GitLogs</button>
             </a>
           )}
           {deployLink && (
             <a href={deployLink} target="_blank" rel="noopener noreferrer">
-              <button className="btn btn-success">Deployed Site</button>
+              <button className="btn ">Live Demo</button>
             </a>
           )}
         </div>

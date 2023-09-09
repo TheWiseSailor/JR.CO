@@ -16,55 +16,74 @@ import TrackVisibility from "react-on-screen";
 export const Portfolio = () => {
   const projects = [
     {
+      title: "JR Portfolio V1",
+      imgUrl: jrportfoliov1,
+      githubLink: "",
+      deployLink: "",
+      logLink: "",
+    },
+    {
+      title: "JR Portfolio V2",
+      imgUrl: jrportfoliov2,
+      githubLink: "",
+      deployLink: "",
+      logLink: "",
+    },
+    {
       title: "JR Photography V1",
 
       imgUrl: jrphotographyv1,
       githubLink:
         "https://github.com/TheWiseSailor/professional-react-portfolio",
-      deployLink:
-        "https://github.com/TheWiseSailor/professional-react-portfolio",
+      deployLink: "https://thewisesailor.github.io/JR-CO/",
+      logLink: "https://github.com/TheWiseSailor/JR-CO/commits/main",
     },
     {
       title: "JR Photography V2",
 
       imgUrl: jrphotographyv2,
+      githubLink: "https://github.com/TheWiseSailor/JR-Photography-v2",
+      //deployLink: "", WORKING ON DEPLOYING THIS TO HEROKU. THIS WAS A SIDE PROJECT
+      logLink:
+        "https://github.com/TheWiseSailor/JR-Photography-v2/commits/main",
     },
-    {
-      title: "JR Portfolio V1",
-      description:
-        " JR Portfolio V1 is a modern personal portfolio, showcasing my skills, projects, and resume. ",
-      imgUrl: jrportfoliov1,
-    },
-    // NOTE: THE ORIGINAL AUTHOR OF THE PROJECT IS LISTED WITHIN THE GITHUB REPO
-    {
-      title: "JR Portfolio V2",
 
-      imgUrl: jrportfoliov2,
-    },
+    // NOTE: THE ORIGINAL AUTHOR OF THE PROJECT IS LISTED WITHIN THE GITHUB REPO
+
     {
       title: "Weather Dashboard",
-
       imgUrl: WeatherDashboard,
+      githubLink: "",
+      deployLink: "",
+      logLink: "",
     },
     {
       title: "Note Taker",
-
       imgUrl: NoteTaker,
+      githubLink: "",
+      deployLink: "",
+      logLink: "",
     },
     {
       title: "Marvel Flicks",
-
       imgUrl: MarvelFlicks,
+      githubLink: "",
+      deployLink: "",
+      logLink: "",
     },
     {
       title: "JavaScript Code Quiz",
-
       imgUrl: JavascriptCodeQuiz,
+      githubLink: "",
+      deployLink: "",
+      logLink: "",
     },
     {
       title: "Workday Scheduler",
-
       imgUrl: WorkDayScheduler,
+      githubLink: "",
+      deployLink: "",
+      logLink: "",
     },
   ];
 
