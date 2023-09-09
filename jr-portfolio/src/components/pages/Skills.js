@@ -2,7 +2,7 @@ import React from "react";
 
 export const Skills = () => {
   return (
-    <div className="Skills">
+    <div className="SkillsContainer">
       <h2 className="resume-welcome">Skills</h2>
       <div className="skillsGrid">
         <img
