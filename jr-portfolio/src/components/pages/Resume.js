@@ -1,5 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import profilePic from "../../assets/img/Joseph-Rudasill.jpg";
+import resumePDF from "../../assets/img/Resume/Resume.pdf";
 
 export const Resume = () => {
   return (
@@ -13,11 +14,12 @@ export const Resume = () => {
           <div>
             <a
               className="resume-welcome"
-              href="/"
+              href={resumePDF}
               target="_blank"
               rel="noreferrer"
+              download="Resume.pdf"
             >
-              Click Here to View my Resume
+              Click Here To Download Resume!
             </a>
           </div>
         </div>
