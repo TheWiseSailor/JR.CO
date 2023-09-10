@@ -338,7 +338,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 96%;
 }
 .about button {
-  color: #fff;
+  color: #722e2e;
   font-weight: 700;
   font-size: 20px;
   margin-top: 60px;
@@ -383,6 +383,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
+
   /* background-color: black; */
   /* background-image: url("../src/assets/img/background6.jpg"); */
   /* I will probably change this because the blue tones are very off setting and art colliding perfectly like I want */
@@ -468,6 +469,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .background-image-right {
   top: 20%;
+
   position: absolute;
   bottom: 0;
   width: 35%;
@@ -477,25 +479,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .rounded-image {
   border-radius: 30px;
-  border: 1px solid rgb(0, 0, 0);
+  border: 1px solid rgb(255, 255, 255);
   margin-top: 40px;
 }
-.project-buttons {
-  border: 1px solid rgb(0, 0, 0);
-  border-radius: 30px;
-  width: 210px;
-  color: #e0dddd;
-  position: static;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  margin-left: 50px;
-}
+
 .project-card {
   align-items: center;
   text-align: center;
   justify-content: center;
 }
+
 /************ Contact Css ************/
 .contact {
   background-position: top center;
