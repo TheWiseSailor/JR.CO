@@ -43,7 +43,7 @@ export const Portfolio = () => {
 
       imgUrl: jrphotographyv2,
       githubLink: "https://github.com/TheWiseSailor/JR-Photography-v2",
-      //deployLink: "", WORKING ON DEPLOYING THIS TO HEROKU. THIS WAS A SIDE PROJECT
+      deployLink: "https://thewisesailor.github.io/JR-Photography-v2/",
     },
 
     // NOTE: THE ORIGINAL AUTHOR OF THE PROJECT IS LISTED WITHIN THE GITHUB REPO

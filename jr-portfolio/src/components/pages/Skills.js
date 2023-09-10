@@ -24,11 +24,20 @@ export const Skills = () => {
               title="CSS 3"
             />
             <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
+              alt="JavaScript"
+              title="JavaScript"
+            />
+            <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg"
               alt="The logo icon for Python"
               title="Python"
             />
-
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg"
+              alt="SQL"
+              title="SQL"
+            />
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg"
               alt="The logo icon for NPM"
@@ -40,11 +49,36 @@ export const Skills = () => {
               alt="The logo icon for GitHub"
               title="GitHub"
             />
-
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg"
+              alt="VS Code"
+              title="VS Code"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain-wordmark.svg"
+              alt="Heroku"
+              title="Heroku"
+            />
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
               alt="The logo icon for NodeJS"
               title="Node JS"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+              alt="express"
+              title="Express"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+              alt="Boostrap"
+              title="Bootstrap"
+            />
+
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original-wordmark.svg"
+              alt="Sequalize"
+              title="Sequalize"
             />
           </div>
         </Row>
