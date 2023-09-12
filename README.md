@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+\*# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -85,3 +85,5 @@ https://freebiesupply.com/ </br>
 https://www.jsdelivr.com/ </br>
 https://icons8.com/ </br>
 https://icon-icons.com/ </br>
+
+<b>Revised resume will be uploaded soon</b>
