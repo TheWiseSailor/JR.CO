@@ -596,21 +596,39 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-bottom: 30px;
 }
 
+.link-box1 {
+  display: inline-block;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  width: 270px;
+  margin-top: 20px;
+  text-align: center;
+}
+.link-box2 {
+  display: inline-block;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  width: 370px;
+  margin-top: 20px;
+  text-align: center;
+}
+
 .resume-welcome {
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 18px 10px 10px;
   background: none;
-  border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 24px;
-  margin-top: 20px;
-  margin-bottom: 36px;
-  display: inline-block;
-  border-radius: 10px;
-  width: 300px;
   text-decoration: none;
 }
-
+.resume-link {
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 18px 10px 10px;
+  background: none;
+  font-size: 24px;
+  text-decoration: none;
+}
 .resumePic {
   width: 40%;
   height: 450px;

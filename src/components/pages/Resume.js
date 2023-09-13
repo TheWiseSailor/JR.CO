@@ -3,6 +3,9 @@ import profilePic from "../../assets/img/Joseph-Rudasill.jpg";
 import resumePDF from "../../assets/img/Resume/Resume.pdf";
 
 export const Resume = () => {
+  const onlineResumeLink =
+    "https://drive.google.com/file/d/1MoiX0nCZiLF3gZAgIRW17mIE2eF1PsDv/view?usp=sharing";
+
   return (
     <section className="resume" id="resume">
       <div className="container">
@@ -11,7 +14,7 @@ export const Resume = () => {
             Hello There! <p>I'm Joseph Rudasill</p>
           </h1>
           <img className="resumePic" src={profilePic} alt="profile picture" />
-          <div>
+          <div class="link-box2">
             <a
               className="resume-welcome"
               href={resumePDF}
@@ -20,6 +23,16 @@ export const Resume = () => {
               download="Resume.pdf"
             >
               Click Here To Download Resume!
+            </a>
+          </div>
+          <div class="link-box1">
+            <a
+              className="resume-link"
+              href={resumePDF}
+              target="_blank"
+              rel="noreferrer"
+            >
+              View Resume!
             </a>
           </div>
         </div>
