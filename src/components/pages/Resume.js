@@ -22,7 +22,7 @@ export const Resume = () => {
               rel="noreferrer"
               download="Resume.pdf"
             >
-              Click Here To Download Resume!
+              Download Resume!
             </a>
           </div>
           <div class="link-box1">
@@ -32,7 +32,7 @@ export const Resume = () => {
               target="_blank"
               rel="noreferrer"
             >
-              View Resume!
+              View Live Resume!
             </a>
           </div>
         </div>

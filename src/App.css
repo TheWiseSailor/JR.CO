@@ -605,10 +605,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
 }
 .link-box2 {
-  display: inline-block;
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 10px;
-  width: 370px;
+  width: 270px;
   margin-top: 20px;
   text-align: center;
 }

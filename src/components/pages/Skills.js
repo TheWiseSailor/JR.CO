@@ -85,11 +85,7 @@ export const Skills = () => {
               alt="Handlebars"
               title="Handlebars"
             />
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"
-              alt="Handlebars"
-              title="Handlebars"
-            />
+
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original-wordmark.svg"
               alt="jquery"
