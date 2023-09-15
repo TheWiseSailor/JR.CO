@@ -11,6 +11,7 @@ import MarvelFlicks from "../../assets/img/MarvelFlicks.png";
 import JavascriptCodeQuiz from "../../assets/img/JavascriptQuiz.png";
 import WorkDayScheduler from "../../assets/img/WorkDayScheduler.png";
 import PasswordGenerator from "../../assets/img/PasswordGenerator.png";
+import VenuesXP from "../../assets/img/VenuesXP.png";
 import "animate.css";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -59,6 +60,12 @@ export const Portfolio = () => {
       imgUrl: NoteTaker,
       githubLink: "https://github.com/TheWiseSailor/Express.js-Note-Taker",
       deployLink: "https://note-taker-69-f0898b1dc611.herokuapp.com/",
+    },
+    {
+      title: "Venues XP",
+      imgUrl: VenuesXP,
+      githubLink: "https://github.com/BrayMurph/JABIS",
+      deployLink: "https://enigmatic-tundra-58761-13359ac3882e.herokuapp.com/",
     },
     {
       title: "Marvel Flicks",
