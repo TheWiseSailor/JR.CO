@@ -9,8 +9,7 @@ import WeatherDashboard from "../../assets/img/WeatherDashboard.png";
 import NoteTaker from "../../assets/img/NoteTaker.png";
 import MarvelFlicks from "../../assets/img/MarvelFlicks.png";
 import JavascriptCodeQuiz from "../../assets/img/JavascriptQuiz.png";
-import WorkDayScheduler from "../../assets/img/WorkDayScheduler.png";
-import PasswordGenerator from "../../assets/img/PasswordGenerator.png";
+
 import VenuesXP from "../../assets/img/VenuesXP.png";
 import "animate.css";
 import "animate.css";
@@ -78,18 +77,6 @@ export const Portfolio = () => {
       imgUrl: JavascriptCodeQuiz,
       githubLink: "https://github.com/TheWiseSailor/Javascript-Code-Quiz",
       deployLink: "https://thewisesailor.github.io/Javascript-Code-Quiz/",
-    },
-    {
-      title: "Workday Scheduler",
-      imgUrl: WorkDayScheduler,
-      githubLink: "https://github.com/TheWiseSailor/Work-Day-Scheduler",
-      deployLink: "https://thewisesailor.github.io/Work-Day-Scheduler/",
-    },
-    {
-      title: "Password Generator",
-      imgUrl: PasswordGenerator,
-      githubLink: "https://github.com/TheWiseSailor/Password-Generator",
-      deployLink: "https://thewisesailor.github.io/Password-Generator/",
     },
   ];
 
