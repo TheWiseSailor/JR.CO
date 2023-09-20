@@ -8,6 +8,7 @@ import jrportfoliov2 from "../../assets/img/jrportfoliov2.png";
 import WeatherDashboard from "../../assets/img/WeatherDashboard.png";
 import NoteTaker from "../../assets/img/NoteTaker.png";
 import MarvelFlicks from "../../assets/img/MarvelFlicks.png";
+import Projects from "../../assets/img//Projects.jpg";
 
 import VenuesXP from "../../assets/img/VenuesXP.png";
 import "animate.css";
@@ -70,6 +71,14 @@ export const Portfolio = () => {
       imgUrl: MarvelFlicks,
       githubLink: "https://github.com/JHeeebert/marvel-flicks",
       deployLink: "https://jheeebert.github.io/marvel-flicks/",
+    },
+    {
+      title: "More projects coming soon!",
+      imgUrl: Projects,
+    },
+    {
+      title: "More projects coming soon!",
+      imgUrl: Projects,
     },
   ];
 
