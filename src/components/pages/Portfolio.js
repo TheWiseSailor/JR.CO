@@ -73,7 +73,7 @@ export const Portfolio = () => {
       deployLink: "https://jheeebert.github.io/marvel-flicks/",
     },
     {
-      title: "More projects coming soon!",
+      title: "Fitness Flavors is in the works!",
       imgUrl: Projects,
     },
     {
