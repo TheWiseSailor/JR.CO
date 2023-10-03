@@ -9,6 +9,7 @@ import WeatherDashboard from "../../assets/img/WeatherDashboard.png";
 import NoteTaker from "../../assets/img/NoteTaker.png";
 import MarvelFlicks from "../../assets/img/MarvelFlicks.png";
 import Projects from "../../assets/img//Projects.jpg";
+import FitnessFlavors from "../../assets/img/FitnessFlavors.jpg";
 
 import VenuesXP from "../../assets/img/VenuesXP.png";
 import "animate.css";
@@ -73,7 +74,13 @@ export const Portfolio = () => {
       deployLink: "https://jheeebert.github.io/marvel-flicks/",
     },
     {
-      title: "Fitness Flavors is in the works!",
+      title: "Fitness Flavors ",
+      imgUrl: FitnessFlavors,
+      githubLink: "https://github.com/4FunkE/Fitness-Flavors",
+      deployLink: "https://fitness-flavors-6c56562cb291.herokuapp.com/",
+    },
+    {
+      title: "More projects coming soon!",
       imgUrl: Projects,
     },
     {
