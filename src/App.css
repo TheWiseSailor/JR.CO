@@ -629,8 +629,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-decoration: none;
 }
 .resumePic {
-  width: 40%;
-  height: 450px;
+  width: 30%;
+  height: 350px;
   animation: none;
   border-radius: 50px;
   margin: 0 auto;

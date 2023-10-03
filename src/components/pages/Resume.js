@@ -25,7 +25,7 @@ export const Resume = () => {
               Download Resume!
             </a>
           </div>
-          <div class="link-box1">
+          <div class="link-box1 pb-32">
             <a
               className="resume-link"
               href={resumePDF}
