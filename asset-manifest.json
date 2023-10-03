@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/JR.CO/static/css/main.19e92665.css",
-    "main.js": "/JR.CO/static/js/main.0920f9ed.js",
+    "main.js": "/JR.CO/static/js/main.e275e5ca.js",
     "static/media/WeatherDashboard.png": "/JR.CO/static/media/WeatherDashboard.76f773a566de1a010254.png",
     "static/media/Photographyv1.png": "/JR.CO/static/media/Photographyv1.083f8352322769f84d81.png",
     "static/media/Joseph-Rudasill.jpg": "/JR.CO/static/media/Joseph-Rudasill.518bd6e17c6f403c7cf7.jpg",
@@ -11,6 +11,7 @@
     "static/media/insetImage3.png": "/JR.CO/static/media/insetImage3.fda012d07341bba27c79.png",
     "static/media/jrportfoliov2.png": "/JR.CO/static/media/jrportfoliov2.aa25ffadc5c6afb68a66.png",
     "static/media/VenuesXP.png": "/JR.CO/static/media/VenuesXP.9adece4d7630c8bfd371.png",
+    "static/media/FitnessFlavors.jpg": "/JR.CO/static/media/FitnessFlavors.22d1bc837929161426c6.jpg",
     "static/media/jrportfoliov1.png": "/JR.CO/static/media/jrportfoliov1.a93a47c4a9b5fe9b5f51.png",
     "static/media/applemoji.png": "/JR.CO/static/media/applemoji.39792992d60bfbb2fc5f.png",
     "static/media/background6.png": "/JR.CO/static/media/background6.78892973ca453f2f7195.png",
@@ -19,10 +20,10 @@
     "static/media/logo.png": "/JR.CO/static/media/logo.5cdd8153ae8e9f6ab68b.png",
     "index.html": "/JR.CO/index.html",
     "main.19e92665.css.map": "/JR.CO/static/css/main.19e92665.css.map",
-    "main.0920f9ed.js.map": "/JR.CO/static/js/main.0920f9ed.js.map"
+    "main.e275e5ca.js.map": "/JR.CO/static/js/main.e275e5ca.js.map"
   },
   "entrypoints": [
     "static/css/main.19e92665.css",
-    "static/js/main.0920f9ed.js"
+    "static/js/main.e275e5ca.js"
   ]
 }
