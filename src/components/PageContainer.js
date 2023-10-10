@@ -1,16 +1,15 @@
 import React, { useState } from "react";
-
 import { PageHeader } from "./Header";
 import { Homepage } from "./pages/Homepage";
 import { About } from "./pages/About";
 import { Portfolio } from "./pages/Portfolio";
-import { Contact } from "./pages/Contact";
+// Correct the import for Contact
+import Contact from "./pages/Contact"; // Updated import alias
 import { Resume } from "./pages/Resume";
 import { Skills } from "./pages/Skills";
 import { Header } from "./Header";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { NavBar } from "./NavBar";
-
 export default function PageContainer() {
   const [activeLink, setActiveLink] = useState("home");
 
@@ -32,7 +31,7 @@ export default function PageContainer() {
     if (activeLink === "skills") {
       return <Skills />;
     }
-    // defaults to Hero for Home
+    // defaults to Homepage for Home
     return <Homepage />;
   };
 
@@ -42,7 +41,7 @@ export default function PageContainer() {
     <div>
       {/* Pass activeLink from state and the function to update it */}
       <Header activeLink={activeLink} onUpdateActiveLink={onUpdateActiveLink} />
-      {/* Call renderPage method which will return a component  */}
+      {/* Call renderPage method which will return a component */}
       {renderPage()}
     </div>
   );
