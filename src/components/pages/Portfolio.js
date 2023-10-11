@@ -82,6 +82,7 @@ export const Portfolio = () => {
     {
       title: "React Weather App Coming Soon",
       imgUrl: Projects,
+      githubLink: "https://github.com/TheWiseSailor/ReactWeather",
     },
     {
       title: "More projects coming soon!",
