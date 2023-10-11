@@ -80,7 +80,7 @@ export const Portfolio = () => {
       deployLink: "https://fitness-flavors-6c56562cb291.herokuapp.com/",
     },
     {
-      title: "More projects coming soon!",
+      title: "React Weather App Coming Soon",
       imgUrl: Projects,
     },
     {
