@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/JR.CO/static/css/main.f45a194d.css",
-    "main.js": "/JR.CO/static/js/main.54e59b34.js",
+    "main.js": "/JR.CO/static/js/main.ec5ae91a.js",
     "static/media/WeatherDashboard.png": "/JR.CO/static/media/WeatherDashboard.76f773a566de1a010254.png",
     "static/media/Photographyv1.png": "/JR.CO/static/media/Photographyv1.083f8352322769f84d81.png",
     "static/media/Joseph-Rudasill.jpg": "/JR.CO/static/media/Joseph-Rudasill.518bd6e17c6f403c7cf7.jpg",
@@ -16,14 +16,15 @@
     "static/media/applemoji.png": "/JR.CO/static/media/applemoji.39792992d60bfbb2fc5f.png",
     "static/media/Resume.pdf": "/JR.CO/static/media/Resume.70f889b9d66d96a6cefc.pdf",
     "static/media/background6.png": "/JR.CO/static/media/background6.78892973ca453f2f7195.png",
+    "static/media/ReactWeather.jpg": "/JR.CO/static/media/ReactWeather.ace4e51f1101a34d6be4.jpg",
     "static/media/NoteTaker.png": "/JR.CO/static/media/NoteTaker.62e2697ca40ccaa9470a.png",
     "static/media/logo.png": "/JR.CO/static/media/logo.5cdd8153ae8e9f6ab68b.png",
     "index.html": "/JR.CO/index.html",
     "main.f45a194d.css.map": "/JR.CO/static/css/main.f45a194d.css.map",
-    "main.54e59b34.js.map": "/JR.CO/static/js/main.54e59b34.js.map"
+    "main.ec5ae91a.js.map": "/JR.CO/static/js/main.ec5ae91a.js.map"
   },
   "entrypoints": [
     "static/css/main.f45a194d.css",
-    "static/js/main.54e59b34.js"
+    "static/js/main.ec5ae91a.js"
   ]
 }
