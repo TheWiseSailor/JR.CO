@@ -10,6 +10,7 @@ import NoteTaker from "../../assets/img/NoteTaker.png";
 import MarvelFlicks from "../../assets/img/MarvelFlicks.png";
 import Projects from "../../assets/img//Projects.jpg";
 import FitnessFlavors from "../../assets/img/FitnessFlavors.jpg";
+import ReactWeather from "../../assets/img/ReactWeather.jpg";
 
 import VenuesXP from "../../assets/img/VenuesXP.png";
 import "animate.css";
@@ -80,9 +81,27 @@ export const Portfolio = () => {
       deployLink: "https://fitness-flavors-6c56562cb291.herokuapp.com/",
     },
     {
-      title: "React Weather App Coming Soon",
-      imgUrl: Projects,
+      title: "React Weather App",
+      imgUrl: ReactWeather,
       githubLink: "https://github.com/TheWiseSailor/ReactWeather",
+      deployLink: " https://thewisesailor.github.io/ReactWeather/",
+    },
+
+    {
+      title: "More projects coming soon!",
+      imgUrl: Projects,
+    },
+    {
+      title: "More projects coming soon!",
+      imgUrl: Projects,
+    },
+    {
+      title: "More projects coming soon!",
+      imgUrl: Projects,
+    },
+    {
+      title: "More projects coming soon!",
+      imgUrl: Projects,
     },
     {
       title: "More projects coming soon!",
