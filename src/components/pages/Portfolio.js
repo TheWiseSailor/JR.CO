@@ -88,7 +88,7 @@ export const Portfolio = () => {
     },
 
     {
-      title: "More projects coming soon!",
+      title: "React Photography Coming Soon!!!!!!!!!!!!!!",
       imgUrl: Projects,
     },
     {
