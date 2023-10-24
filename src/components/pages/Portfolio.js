@@ -11,7 +11,7 @@ import MarvelFlicks from "../../assets/img/MarvelFlicks.png";
 import Projects from "../../assets/img//Projects.jpg";
 import FitnessFlavors from "../../assets/img/FitnessFlavors.jpg";
 import ReactWeather from "../../assets/img/ReactWeather.jpg";
-
+import ReactPhotography from "../../assets/img/Website.jpg";
 import VenuesXP from "../../assets/img/VenuesXP.png";
 import "animate.css";
 import "animate.css";
@@ -88,8 +88,10 @@ export const Portfolio = () => {
     },
 
     {
-      title: "React Photography Coming Soon!!!!!!!!!!!!!!",
-      imgUrl: Projects,
+      title: "React Photography",
+      imgUrl: ReactPhotography,
+      githubLink: "https://github.com/TheWiseSailor/ReactJRPhotography",
+      deployLink: "https://thewisesailor.github.io/ReactJRPhotography/",
     },
     {
       title: "More projects coming soon!",
