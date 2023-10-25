@@ -94,7 +94,7 @@ export const Portfolio = () => {
       deployLink: "https://thewisesailor.github.io/ReactJRPhotography/",
     },
     {
-      title: "More projects coming soon!",
+      title: "REACT JAVASCRIPT CODE QUIZ COMING SOON!!!!!!!!",
       imgUrl: Projects,
     },
     {
