@@ -109,6 +109,14 @@ export const Portfolio = () => {
       title: "More projects coming soon!",
       imgUrl: Projects,
     },
+    {
+      title: "More projects coming soon!",
+      imgUrl: Projects,
+    },
+    {
+      title: "More projects coming soon!",
+      imgUrl: Projects,
+    },
   ];
 
   return (
