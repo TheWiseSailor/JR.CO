@@ -32,7 +32,7 @@ export default function PageContainer() {
       return <Skills />;
     }
     // defaults to Homepage for Home
-    return <Homepage />;
+    return <About />;
   };
 
   const onUpdateActiveLink = (page) => setActiveLink(page);
