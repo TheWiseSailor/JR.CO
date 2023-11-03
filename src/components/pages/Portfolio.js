@@ -95,6 +95,7 @@ export const Portfolio = () => {
     },
     {
       title: "Project C",
+      // This was going to be a group project but we have yet to come up with a day so in the meantime I am going to find a project for me to work on
       imgUrl: Projects,
     },
     {
