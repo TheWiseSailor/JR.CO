@@ -4,7 +4,7 @@ import resumePDF from "../../assets/img/Resume/Resume.pdf";
 
 export const Resume = () => {
   const onlineResumeLink =
-    "https://drive.google.com/file/d/1CAFUOhKYJaq2mjnIxyq_6B_CeOPgDP3A/view?usp=sharing";
+    "https://drive.google.com/file/d/1CAFUOhKYJaq2mjnIxyq_6B_CeOPgDP3A/view?usp=drive_link";
 
   return (
     <section className="resume" id="resume">
