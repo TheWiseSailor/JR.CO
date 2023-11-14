@@ -13,7 +13,7 @@ export const Header = ({ activeLink, onUpdateActiveLink }) => {
   return (
     <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
       <Container>
-        <Navbar.Brand href="/">
+        <Navbar.Brand href="/" onClick={() => onUpdateActiveLink("home")}>
           <img src={logo} alt="Logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
