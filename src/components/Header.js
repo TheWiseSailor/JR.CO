@@ -10,10 +10,29 @@ import instagram from "../assets/img/instagram.png";
 
 export const Header = ({ activeLink, onUpdateActiveLink }) => {
   const [scrolled] = useState(false);
+
+  const link = document.createElement("link");
+  link.rel = "stylesheet";
+  link.href = "https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css";
+  document.head.appendChild(link);
+
+  const script = document.createElement("script");
+  script.src = "https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js";
+  document.body.appendChild(script);
+
+  // Initialize AOS after the script has loaded
+  script.onload = () => {
+    window.AOS.init();
+  };
   return (
     <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
       <Container>
-        <Navbar.Brand href="#About" onClick={() => onUpdateActiveLink("About")}>
+        <Navbar.Brand
+          href="#About"
+          data-aos="fade-down"
+          data-aos-duration="3000"
+          onClick={() => onUpdateActiveLink("About")}
+        >
           <img src={logo} alt="Logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
@@ -23,6 +42,8 @@ export const Header = ({ activeLink, onUpdateActiveLink }) => {
           <Nav className="ms-auto">
             <Nav.Link
               href="#About"
+              data-aos="fade-up"
+              data-aos-duration="3000"
               className={
                 activeLink === "About" ? "active navbar-link" : "navbar-link"
               }
@@ -32,6 +53,8 @@ export const Header = ({ activeLink, onUpdateActiveLink }) => {
             </Nav.Link>
             <Nav.Link
               href="#Resume"
+              data-aos="fade-down"
+              data-aos-duration="3000"
               className={
                 activeLink === "resume" ? "active navbar-link" : "navbar-link"
               }
@@ -41,6 +64,8 @@ export const Header = ({ activeLink, onUpdateActiveLink }) => {
             </Nav.Link>
             <Nav.Link
               href="#skills"
+              data-aos="fade-up"
+              data-aos-duration="3000"
               className={
                 activeLink === "skills" ? "active navbar-link" : "navbar-link"
               }
@@ -50,6 +75,8 @@ export const Header = ({ activeLink, onUpdateActiveLink }) => {
             </Nav.Link>
             <Nav.Link
               href="#portfolio"
+              data-aos="fade-down"
+              data-aos-duration="3000"
               className={
                 activeLink === "portfolio"
                   ? "active navbar-link"
@@ -61,6 +88,8 @@ export const Header = ({ activeLink, onUpdateActiveLink }) => {
             </Nav.Link>
             <Nav.Link
               href="#contact"
+              data-aos="fade-up"
+              data-aos-duration="3000"
               className={
                 activeLink === "contact" ? "active navbar-link" : "navbar-link"
               }
@@ -69,7 +98,11 @@ export const Header = ({ activeLink, onUpdateActiveLink }) => {
               Contact
             </Nav.Link>
           </Nav>
-          <span className="navbar-text">
+          <span
+            className="navbar-text"
+            data-aos="fade-left"
+            data-aos-duration="3000"
+          >
             <div className="social-icon">
               <a href="https://discordapp.com/users/389945057345667077">
                 <img src={discord} alt="Discord" />
