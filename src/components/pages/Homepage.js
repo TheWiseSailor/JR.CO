@@ -5,7 +5,7 @@ import profilePic from "../../assets/img/applemoji.png";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
-
+// going to start adding aos to alot of stuff, not all though
 export const Homepage = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
