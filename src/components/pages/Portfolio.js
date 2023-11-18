@@ -102,7 +102,7 @@ export const Portfolio = () => {
   ];
 
   return (
-    <section className="project" id="portfolio">
+    <section className="project " id="portfolio">
       <Container>
         <Row>
           <Col size={12}>
