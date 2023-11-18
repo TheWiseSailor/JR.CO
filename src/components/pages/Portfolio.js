@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectDetails } from "./ProjectDetails";
+import TrackVisibility from "react-on-screen";
 import jrphotographyv1 from "../../assets/img/Photographyv1.png";
 import jrphotographyv2 from "../../assets/img/Photographyv2.png";
 import jrportfoliov1 from "../../assets/img/jrportfoliov1.png";
@@ -15,9 +16,38 @@ import ReactPhotography from "../../assets/img/Website.jpg";
 import VenuesXP from "../../assets/img/VenuesXP.png";
 import "animate.css";
 import "animate.css";
-import TrackVisibility from "react-on-screen";
 
 export const Portfolio = () => {
+  const marvelflicks = [
+    {
+      title: "Marvel Flicks",
+      imgUrl: MarvelFlicks,
+      githubLink: "https://github.com/JHeeebert/marvel-flicks",
+      deployLink: "https://jheeebert.github.io/marvel-flicks/",
+    },
+    // Add more marvelflicks projects if needed
+  ];
+
+  const venuesExp = [
+    {
+      title: "Venues XP",
+      imgUrl: VenuesXP,
+      githubLink: "https://github.com/BrayMurph/JABIS",
+      deployLink: "https://enigmatic-tundra-58761-13359ac3882e.herokuapp.com/",
+    },
+    // Add more venues exp projects if needed
+  ];
+
+  const fitnessFlavors = [
+    {
+      title: "Fitness Flavors",
+      imgUrl: FitnessFlavors,
+      githubLink: "https://github.com/4FunkE/Fitness-Flavors",
+      deployLink: "https://fitness-flavors-6c56562cb291.herokuapp.com/",
+    },
+    // Add more fitnessflavors projects if needed
+  ];
+
   const projects = [
     {
       title: "JR Portfolio V1",
@@ -34,7 +64,6 @@ export const Portfolio = () => {
     },
     {
       title: "JR Photography V1",
-
       imgUrl: jrphotographyv1,
       githubLink:
         "https://github.com/TheWiseSailor/professional-react-portfolio",
@@ -42,14 +71,10 @@ export const Portfolio = () => {
     },
     {
       title: "JR Photography V2",
-
       imgUrl: jrphotographyv2,
       githubLink: "https://github.com/TheWiseSailor/JR-Photography-v2",
       deployLink: "https://thewisesailor.github.io/JR-Photography-v2/",
     },
-
-    // NOTE: THE ORIGINAL AUTHOR OF THE PROJECT IS LISTED WITHIN THE GITHUB REPO
-
     {
       title: "Weather Dashboard",
       imgUrl: WeatherDashboard,
@@ -62,31 +87,15 @@ export const Portfolio = () => {
       githubLink: "https://github.com/TheWiseSailor/Express.js-Note-Taker",
       deployLink: "https://note-taker-69-f0898b1dc611.herokuapp.com/",
     },
-    {
-      title: "Venues XP",
-      imgUrl: VenuesXP,
-      githubLink: "https://github.com/BrayMurph/JABIS",
-      deployLink: "https://enigmatic-tundra-58761-13359ac3882e.herokuapp.com/",
-    },
-    {
-      title: "Marvel Flicks",
-      imgUrl: MarvelFlicks,
-      githubLink: "https://github.com/JHeeebert/marvel-flicks",
-      deployLink: "https://jheeebert.github.io/marvel-flicks/",
-    },
-    {
-      title: "Fitness Flavors ",
-      imgUrl: FitnessFlavors,
-      githubLink: "https://github.com/4FunkE/Fitness-Flavors",
-      deployLink: "https://fitness-flavors-6c56562cb291.herokuapp.com/",
-    },
+    ...marvelflicks,
+    ...venuesExp,
+    ...fitnessFlavors,
     {
       title: "React Weather App",
       imgUrl: ReactWeather,
       githubLink: "https://github.com/TheWiseSailor/ReactWeather",
-      deployLink: " https://thewisesailor.github.io/ReactWeather/",
+      deployLink: "https://thewisesailor.github.io/ReactWeather/",
     },
-
     {
       title: "React Photography",
       imgUrl: ReactPhotography,
@@ -95,15 +104,6 @@ export const Portfolio = () => {
     },
     {
       title: "Project C",
-      // This was going to be a group project but we have yet to come up with a day so in the meantime I am going to find a project for me to work on
-      imgUrl: Projects,
-    },
-    {
-      title: "More projects coming soon!",
-      imgUrl: Projects,
-    },
-    {
-      title: "More projects coming soon!",
       imgUrl: Projects,
     },
     {
@@ -163,11 +163,17 @@ export const Portfolio = () => {
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
-                        <p>
-                          Will integrate into file soon! For now it will just be
-                          on Projects.
-                          <p>Stay tuned!</p>
-                        </p>
+                        <Row>
+                          {marvelflicks.map((project, index) => {
+                            return <ProjectDetails key={index} {...project} />;
+                          })}
+                          {venuesExp.map((project, index) => {
+                            return <ProjectDetails key={index} {...project} />;
+                          })}
+                          {fitnessFlavors.map((project, index) => {
+                            return <ProjectDetails key={index} {...project} />;
+                          })}
+                        </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
                         <p>
