@@ -87,9 +87,6 @@ export const Portfolio = () => {
       githubLink: "https://github.com/TheWiseSailor/Express.js-Note-Taker",
       deployLink: "https://note-taker-69-f0898b1dc611.herokuapp.com/",
     },
-    ...marvelflicks,
-    ...venuesExp,
-    ...fitnessFlavors,
     {
       title: "React Weather App",
       imgUrl: ReactWeather,
