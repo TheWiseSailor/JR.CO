@@ -102,22 +102,6 @@ export const Portfolio = () => {
       githubLink: "https://github.com/TheWiseSailor/ReactJRPhotography",
       deployLink: "https://thewisesailor.github.io/ReactJRPhotography/",
     },
-    {
-      title: "Project C",
-      imgUrl: Projects,
-    },
-    {
-      title: "More projects coming soon!",
-      imgUrl: Projects,
-    },
-    {
-      title: "More projects coming soon!",
-      imgUrl: Projects,
-    },
-    {
-      title: "More projects coming soon!",
-      imgUrl: Projects,
-    },
   ];
 
   return (
@@ -176,10 +160,13 @@ export const Portfolio = () => {
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
-                        <p>
-                          Will integrate into file soon!
-                          <p>Stay tuned!</p>
-                        </p>
+                        <Row>
+                          <ProjectDetails
+                            key={1} // Adjust the key as needed for uniqueness
+                            title="More projects coming soon!"
+                            imgUrl={Projects}
+                          />
+                        </Row>
                       </Tab.Pane>
                     </Tab.Content>
                   </Tab.Container>
