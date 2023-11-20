@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/JR.CO/static/css/main.b04128f6.css",
+    "main.css": "/JR.CO/static/css/main.7dec5e05.css",
     "main.js": "/JR.CO/static/js/main.785dd3f7.js",
     "static/media/WeatherDashboard.png": "/JR.CO/static/media/WeatherDashboard.76f773a566de1a010254.png",
     "static/media/Photographyv1.png": "/JR.CO/static/media/Photographyv1.083f8352322769f84d81.png",
@@ -21,11 +21,11 @@
     "static/media/NoteTaker.png": "/JR.CO/static/media/NoteTaker.62e2697ca40ccaa9470a.png",
     "static/media/logo.png": "/JR.CO/static/media/logo.5cdd8153ae8e9f6ab68b.png",
     "index.html": "/JR.CO/index.html",
-    "main.b04128f6.css.map": "/JR.CO/static/css/main.b04128f6.css.map",
+    "main.7dec5e05.css.map": "/JR.CO/static/css/main.7dec5e05.css.map",
     "main.785dd3f7.js.map": "/JR.CO/static/js/main.785dd3f7.js.map"
   },
   "entrypoints": [
-    "static/css/main.b04128f6.css",
+    "static/css/main.7dec5e05.css",
     "static/js/main.785dd3f7.js"
   ]
 }
