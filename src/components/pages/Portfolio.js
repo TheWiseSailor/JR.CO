@@ -163,6 +163,8 @@ export const Portfolio = () => {
                             title="More projects coming soon!"
                             imgUrl={Projects}
                           />
+
+                          {/* Project NewCastle */}
                         </Row>
                       </Tab.Pane>
                     </Tab.Content>
