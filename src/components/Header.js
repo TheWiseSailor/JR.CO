@@ -48,9 +48,7 @@ export const Header = ({ activeLink, onUpdateActiveLink }) => {
                 activeLink === "About" ? "active navbar-link" : "navbar-link"
               }
               onClick={() => onUpdateActiveLink("About")}
-            >
-              About Me
-            </Nav.Link>
+            ></Nav.Link>
             <Nav.Link
               href="#Resume"
               data-aos="fade-down"
