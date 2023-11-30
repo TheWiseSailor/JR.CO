@@ -70,7 +70,7 @@ export const Homepage = () => {
                     <span
                       className="txt-rotate"
                       dataPeriod="1000"
-                      data-rotate='[ "Front-End Developer", "UI/UX Designer", ]'
+                      data-rotate='[ "Front-End Engineer", "UI/UX Developer", ]'
                     >
                       <span className="wrap">{text}</span>
                     </span>
