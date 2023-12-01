@@ -160,7 +160,7 @@ export const Portfolio = () => {
                         <Row>
                           <ProjectDetails
                             key={1} // Adjust the key as needed for uniqueness
-                            title="More projects coming soon!"
+                            title="Moore Real Estate Coming soon to you!!!"
                             imgUrl={Projects}
                           />
 
