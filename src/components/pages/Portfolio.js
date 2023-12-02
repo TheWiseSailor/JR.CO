@@ -5,6 +5,7 @@ import TrackVisibility from "react-on-screen";
 import Password from "../../assets/img/Password.png";
 import Quiz from "../../assets/img/CodeQuiz.png";
 import Readme from "../../assets/img/ReadmeGen.png";
+import PWA from "../../assets/img/PWA.png";
 import ORM from "../../assets/img/ORM.png";
 import jrphotographyv1 from "../../assets/img/Photographyv1.png";
 import jrphotographyv2 from "../../assets/img/Photographyv2.png";
@@ -77,6 +78,12 @@ export const Portfolio = () => {
       githubLink: "https://github.com/TheWiseSailor/ORM-Ecommerce-Back-End",
       deployLink:
         "https://drive.google.com/file/d/1-7oAyGwLABI0Xom-XMOwHRXpDknNxI8n/view",
+    },
+    {
+      title: "Progressive Web App",
+      imgUrl: PWA,
+      githubLink:
+        "https://github.com/TheWiseSailor/Progressive-Web-Applications-PWA-Challenge-Text-Editor",
     },
     {
       title: "JR Portfolio V1",
