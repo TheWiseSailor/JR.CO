@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectDetails } from "./ProjectDetails";
 import TrackVisibility from "react-on-screen";
+import Quiz from "../../assets/img/CodeQuiz.png";
 import jrphotographyv1 from "../../assets/img/Photographyv1.png";
 import jrphotographyv2 from "../../assets/img/Photographyv2.png";
 import jrportfoliov1 from "../../assets/img/jrportfoliov1.png";
@@ -49,6 +50,12 @@ export const Portfolio = () => {
   ];
 
   const projects = [
+    {
+      title: "JavaScript Quiz",
+      imgUrl: Quiz,
+      githubLink: "https://github.com/TheWiseSailor/Javascript-Code-Quiz",
+      deployLink: "https://thewisesailor.github.io/Javascript-Code-Quiz/",
+    },
     {
       title: "JR Portfolio V1",
       imgUrl: jrportfoliov1,
@@ -160,7 +167,7 @@ export const Portfolio = () => {
                         <Row>
                           <ProjectDetails
                             key={1} // Adjust the key as needed for uniqueness
-                            title="Moore Real Estate Coming soon to you!!!"
+                            title="Moore Real Estate Coming soon to"
                             imgUrl={Projects}
                           />
 
