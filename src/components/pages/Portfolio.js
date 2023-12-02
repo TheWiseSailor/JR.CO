@@ -4,6 +4,7 @@ import { ProjectDetails } from "./ProjectDetails";
 import TrackVisibility from "react-on-screen";
 import Password from "../../assets/img/Password.png";
 import Quiz from "../../assets/img/CodeQuiz.png";
+import Readme from "../../assets/img/ReadmeGen.png";
 import jrphotographyv1 from "../../assets/img/Photographyv1.png";
 import jrphotographyv2 from "../../assets/img/Photographyv2.png";
 import jrportfoliov1 from "../../assets/img/jrportfoliov1.png";
@@ -62,6 +63,11 @@ export const Portfolio = () => {
       imgUrl: Password,
       githubLink: "https://github.com/TheWiseSailor/Password-Generator",
       deployLink: "https://thewisesailor.github.io/Password-Generator/",
+    },
+    {
+      title: "Readme Generator",
+      imgUrl: Readme,
+      githubLink: "https://github.com/TheWiseSailor/ReadME-Generator",
     },
     {
       title: "JR Portfolio V1",
