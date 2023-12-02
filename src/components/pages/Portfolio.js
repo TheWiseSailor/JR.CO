@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectDetails } from "./ProjectDetails";
 import TrackVisibility from "react-on-screen";
+import Password from "../../assets/img/Password.png";
 import Quiz from "../../assets/img/CodeQuiz.png";
 import jrphotographyv1 from "../../assets/img/Photographyv1.png";
 import jrphotographyv2 from "../../assets/img/Photographyv2.png";
@@ -55,6 +56,12 @@ export const Portfolio = () => {
       imgUrl: Quiz,
       githubLink: "https://github.com/TheWiseSailor/Javascript-Code-Quiz",
       deployLink: "https://thewisesailor.github.io/Javascript-Code-Quiz/",
+    },
+    {
+      title: "Password Generator",
+      imgUrl: Password,
+      githubLink: "https://github.com/TheWiseSailor/Password-Generator",
+      deployLink: "https://thewisesailor.github.io/Password-Generator/",
     },
     {
       title: "JR Portfolio V1",
