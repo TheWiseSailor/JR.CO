@@ -55,6 +55,57 @@ export const Portfolio = () => {
 
   const projects = [
     {
+      title: "JR Portfolio V1",
+      imgUrl: jrportfoliov1,
+      githubLink: "https://github.com/TheWiseSailor/JR-Portfolio",
+      deployLink: "https://thewisesailor.github.io/JR-Portfolio/",
+    },
+    {
+      title: "JR Portfolio V2",
+      imgUrl: jrportfoliov2,
+      githubLink:
+        "https://github.com/TheWiseSailor/professional-react-portfolio",
+      deployLink: "",
+    },
+    {
+      title: "JR Photography V1",
+      imgUrl: jrphotographyv1,
+      githubLink:
+        "https://github.com/TheWiseSailor/professional-react-portfolio",
+      deployLink: "https://thewisesailor.github.io/JR-CO/",
+    },
+    {
+      title: "JR Photography V2",
+      imgUrl: jrphotographyv2,
+      githubLink: "https://github.com/TheWiseSailor/JR-Photography-v2",
+      deployLink: "https://thewisesailor.github.io/JR-Photography-v2/",
+    },
+    {
+      title: "React Photography",
+      imgUrl: ReactPhotography,
+      githubLink: "https://github.com/TheWiseSailor/ReactJRPhotography",
+      deployLink: "https://thewisesailor.github.io/ReactJRPhotography/",
+    },
+    {
+      title: "Weather Dashboard",
+      imgUrl: WeatherDashboard,
+      githubLink: "https://github.com/TheWiseSailor/Weather-DashBoard",
+      deployLink: "https://thewisesailor.github.io/Weather-DashBoard/",
+    },
+    {
+      title: "React Weather App",
+      imgUrl: ReactWeather,
+      githubLink: "https://github.com/TheWiseSailor/ReactWeather",
+      deployLink: "https://thewisesailor.github.io/ReactWeather/",
+    },
+    {
+      title: "Note Taker",
+      imgUrl: NoteTaker,
+      githubLink: "https://github.com/TheWiseSailor/Express.js-Note-Taker",
+      deployLink: "https://note-taker-69-f0898b1dc611.herokuapp.com/",
+    },
+
+    {
       title: "JavaScript Quiz",
       imgUrl: Quiz,
       githubLink: "https://github.com/TheWiseSailor/Javascript-Code-Quiz",
@@ -84,56 +135,6 @@ export const Portfolio = () => {
       imgUrl: PWA,
       githubLink:
         "https://github.com/TheWiseSailor/Progressive-Web-Applications-PWA-Challenge-Text-Editor",
-    },
-    {
-      title: "JR Portfolio V1",
-      imgUrl: jrportfoliov1,
-      githubLink: "https://github.com/TheWiseSailor/JR-Portfolio",
-      deployLink: "https://thewisesailor.github.io/JR-Portfolio/",
-    },
-    {
-      title: "JR Portfolio V2",
-      imgUrl: jrportfoliov2,
-      githubLink:
-        "https://github.com/TheWiseSailor/professional-react-portfolio",
-      deployLink: "",
-    },
-    {
-      title: "JR Photography V1",
-      imgUrl: jrphotographyv1,
-      githubLink:
-        "https://github.com/TheWiseSailor/professional-react-portfolio",
-      deployLink: "https://thewisesailor.github.io/JR-CO/",
-    },
-    {
-      title: "JR Photography V2",
-      imgUrl: jrphotographyv2,
-      githubLink: "https://github.com/TheWiseSailor/JR-Photography-v2",
-      deployLink: "https://thewisesailor.github.io/JR-Photography-v2/",
-    },
-    {
-      title: "Weather Dashboard",
-      imgUrl: WeatherDashboard,
-      githubLink: "https://github.com/TheWiseSailor/Weather-DashBoard",
-      deployLink: "https://thewisesailor.github.io/Weather-DashBoard/",
-    },
-    {
-      title: "Note Taker",
-      imgUrl: NoteTaker,
-      githubLink: "https://github.com/TheWiseSailor/Express.js-Note-Taker",
-      deployLink: "https://note-taker-69-f0898b1dc611.herokuapp.com/",
-    },
-    {
-      title: "React Weather App",
-      imgUrl: ReactWeather,
-      githubLink: "https://github.com/TheWiseSailor/ReactWeather",
-      deployLink: "https://thewisesailor.github.io/ReactWeather/",
-    },
-    {
-      title: "React Photography",
-      imgUrl: ReactPhotography,
-      githubLink: "https://github.com/TheWiseSailor/ReactJRPhotography",
-      deployLink: "https://thewisesailor.github.io/ReactJRPhotography/",
     },
   ];
 
