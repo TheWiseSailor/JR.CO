@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/JR.CO/static/css/main.7dec5e05.css",
-    "main.js": "/JR.CO/static/js/main.a36a71f0.js",
+    "main.js": "/JR.CO/static/js/main.f400d866.js",
     "static/media/WeatherDashboard.png": "/JR.CO/static/media/WeatherDashboard.76f773a566de1a010254.png",
     "static/media/Photographyv1.png": "/JR.CO/static/media/Photographyv1.083f8352322769f84d81.png",
     "static/media/Joseph-Rudasill.jpg": "/JR.CO/static/media/Joseph-Rudasill.518bd6e17c6f403c7cf7.jpg",
     "static/media/Projects.jpg": "/JR.CO/static/media/Projects.1ab00874929928898cfd.jpg",
+    "static/media/Moore-Realestate.png": "/JR.CO/static/media/Moore-Realestate.b27ecad31f2b7f0818f3.png",
     "static/media/Photographyv2.png": "/JR.CO/static/media/Photographyv2.295e0a1c0bcfe823e701.png",
     "static/media/MarvelFlicks.png": "/JR.CO/static/media/MarvelFlicks.e490be96f256c126e059.png",
     "static/media/insetImage3.png": "/JR.CO/static/media/insetImage3.fda012d07341bba27c79.png",
@@ -27,10 +28,10 @@
     "static/media/logo.png": "/JR.CO/static/media/logo.5cdd8153ae8e9f6ab68b.png",
     "index.html": "/JR.CO/index.html",
     "main.7dec5e05.css.map": "/JR.CO/static/css/main.7dec5e05.css.map",
-    "main.a36a71f0.js.map": "/JR.CO/static/js/main.a36a71f0.js.map"
+    "main.f400d866.js.map": "/JR.CO/static/js/main.f400d866.js.map"
   },
   "entrypoints": [
     "static/css/main.7dec5e05.css",
-    "static/js/main.a36a71f0.js"
+    "static/js/main.f400d866.js"
   ]
 }
