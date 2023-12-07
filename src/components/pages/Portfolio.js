@@ -19,6 +19,7 @@ import FitnessFlavors from "../../assets/img/FitnessFlavors.jpg";
 import ReactWeather from "../../assets/img/ReactWeather.jpg";
 import ReactPhotography from "../../assets/img/Website.jpg";
 import VenuesXP from "../../assets/img/VenuesXP.png";
+import Moore from "../../assets/img/Moore-Realestate.png";
 import "animate.css";
 import "animate.css";
 
@@ -197,8 +198,8 @@ export const Portfolio = () => {
                         <Row>
                           <ProjectDetails
                             key={1} // Adjust the key as needed for uniqueness
-                            title="Moore Real Estate Coming soon to"
-                            imgUrl={Projects}
+                            title="Moore Real Estate Coming soon to you soon!"
+                            imgUrl={Moore}
                           />
 
                           {/* Project NewCastle */}
