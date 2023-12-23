@@ -200,8 +200,8 @@ export const Portfolio = () => {
                             key={1} // Adjust the key as needed for uniqueness
                             title="Moore Real Estate Coming soon to you soon!"
                             imgUrl={Moore}
-                            githubLink="https://github.com/TheWiseSailor/Moore-Real-Estate"
-                            deployLink="https://TheWiseSailor.github.io/Moore-Real-Estate"
+                            githubLink="https://github.com/TheWiseSailor/Moore2.0"
+                            deployLink="https://thewisesailor.github.io/Moore2.0/"
                           />
 
                           {/* Project NewCastle */}
