@@ -56,6 +56,12 @@ export const Portfolio = () => {
 
   const projects = [
     {
+      title:"Moore Real Estate (in the process of debugging)",
+      imgUrl:Moore,
+      githubLink:"https://github.com/TheWiseSailor/Moore2.0",
+      deployLink:"https://thewisesailor.github.io/Moore2.0/",
+    },
+    {
       title: "JR Portfolio V1",
       imgUrl: jrportfoliov1,
       githubLink: "https://github.com/TheWiseSailor/JR-Portfolio",
@@ -196,13 +202,13 @@ export const Portfolio = () => {
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
                         <Row>
-                          <ProjectDetails
+                          {/* <ProjectDetails
                             key={1} // Adjust the key as needed for uniqueness
                             title="Moore Real Estate Coming soon to you soon!"
                             imgUrl={Moore}
                             githubLink="https://github.com/TheWiseSailor/Moore2.0"
                             deployLink="https://thewisesailor.github.io/Moore2.0/"
-                          />
+                          /> */}
 
                           {/* Project NewCastle */}
                         </Row>
