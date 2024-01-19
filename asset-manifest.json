@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/JR.CO/static/css/main.7dec5e05.css",
-    "main.js": "/JR.CO/static/js/main.b92bf4a0.js",
+    "main.js": "/JR.CO/static/js/main.8ba2920a.js",
     "static/media/WeatherDashboard.png": "/JR.CO/static/media/WeatherDashboard.76f773a566de1a010254.png",
     "static/media/Photographyv1.png": "/JR.CO/static/media/Photographyv1.083f8352322769f84d81.png",
     "static/media/Joseph-Rudasill.jpg": "/JR.CO/static/media/Joseph-Rudasill.518bd6e17c6f403c7cf7.jpg",
@@ -19,7 +19,7 @@
     "static/media/applemoji.png": "/JR.CO/static/media/applemoji.39792992d60bfbb2fc5f.png",
     "static/media/ReadmeGen.png": "/JR.CO/static/media/ReadmeGen.57251d04a28f5b23b646.png",
     "static/media/Website.jpg": "/JR.CO/static/media/Website.432fd6b5411f91687501.jpg",
-    "static/media/Resume.pdf": "/JR.CO/static/media/Resume.0994d2e690b668915fcc.pdf",
+    "static/media/Resume.pdf": "/JR.CO/static/media/Resume.765c0f821045f3ac57fb.pdf",
     "static/media/background6.png": "/JR.CO/static/media/background6.78892973ca453f2f7195.png",
     "static/media/ReactWeather.jpg": "/JR.CO/static/media/ReactWeather.ace4e51f1101a34d6be4.jpg",
     "static/media/Password.png": "/JR.CO/static/media/Password.bf409747ec2e5df90343.png",
@@ -28,10 +28,10 @@
     "static/media/logo.png": "/JR.CO/static/media/logo.5cdd8153ae8e9f6ab68b.png",
     "index.html": "/JR.CO/index.html",
     "main.7dec5e05.css.map": "/JR.CO/static/css/main.7dec5e05.css.map",
-    "main.b92bf4a0.js.map": "/JR.CO/static/js/main.b92bf4a0.js.map"
+    "main.8ba2920a.js.map": "/JR.CO/static/js/main.8ba2920a.js.map"
   },
   "entrypoints": [
     "static/css/main.7dec5e05.css",
-    "static/js/main.b92bf4a0.js"
+    "static/js/main.8ba2920a.js"
   ]
 }
