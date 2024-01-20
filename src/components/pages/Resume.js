@@ -40,3 +40,5 @@ export const Resume = () => {
     </section>
   );
 };
+
+//spruce up the website a bit more
