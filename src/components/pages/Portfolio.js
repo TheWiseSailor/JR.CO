@@ -20,6 +20,7 @@ import ReactWeather from "../../assets/img/ReactWeather.jpg";
 import ReactPhotography from "../../assets/img/Website.jpg";
 import VenuesXP from "../../assets/img/VenuesXP.png";
 import Moore from "../../assets/img/Moore-Realestate.png";
+import JE from "../../assets/img/JE.png";
 import "animate.css";
 import "animate.css";
 
@@ -202,13 +203,13 @@ export const Portfolio = () => {
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
                         <Row>
-                          {/* <ProjectDetails
+                          <ProjectDetails
                             key={1} // Adjust the key as needed for uniqueness
-                            title="Moore Real Estate Coming soon to you soon!"
-                            imgUrl={Moore}
-                            githubLink="https://github.com/TheWiseSailor/Moore2.0"
-                            deployLink="https://thewisesailor.github.io/Moore2.0/"
-                          /> */}
+                            title="JE.CO Coming soon to you soon!"
+                            imgUrl={JE}
+                            githubLink="https://github.com/TheWiseSailor/JE"
+                            deployLink="https://thewisesailor.github.io/JE/"
+                          />
 
                           {/* Project NewCastle */}
                         </Row>
