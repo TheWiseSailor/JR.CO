@@ -84,17 +84,7 @@ export const Header = ({ activeLink, onUpdateActiveLink }) => {
             >
               Portfolio
             </Nav.Link>
-            <Nav.Link
-              href="#contact"
-              data-aos="fade-up"
-              data-aos-duration="3000"
-              className={
-                activeLink === "contact" ? "active navbar-link" : "navbar-link"
-              }
-              onClick={() => onUpdateActiveLink("contact")}
-            >
-              Contact
-            </Nav.Link>
+
           </Nav>
           <span
             className="navbar-text"

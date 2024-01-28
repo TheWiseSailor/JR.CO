@@ -4,7 +4,7 @@ import { Homepage } from "./pages/Homepage";
 import { About } from "./pages/About";
 import { Portfolio } from "./pages/Portfolio";
 // Correct the import for Contact
-import Contact from "./pages/Contact"; // Updated import alias
+
 import { Resume } from "./pages/Resume";
 import { Skills } from "./pages/Skills";
 import { Header } from "./Header";
@@ -22,9 +22,7 @@ export default function PageContainer() {
     if (activeLink === "portfolio") {
       return <Portfolio />;
     }
-    if (activeLink === "contact") {
-      return <Contact />;
-    }
+
     if (activeLink === "resume") {
       return <Resume />;
     }

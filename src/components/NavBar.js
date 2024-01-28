@@ -97,9 +97,7 @@ export const NavBar = () => {
                 <img src={instagram} alt="Instagram" />
               </a>
             </div>
-            <button className="vvd">
-              <span>Connect!</span>
-            </button>
+
           </span>
         </Navbar.Collapse>
       </Container>
