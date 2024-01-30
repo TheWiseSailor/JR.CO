@@ -57,16 +57,22 @@ export const Portfolio = () => {
 
   const projects = [
     {
+      title:"JE.CO",
+      imgUrl:JE,
+    githubLink:"https://github.com/TheWiseSailor/JE",
+    deployLink:"https://thewisesailor.github.io/JE/",
+    },
+    {
+      title: "React Photography",
+      imgUrl: ReactPhotography,
+      githubLink: "https://github.com/TheWiseSailor/ReactJRPhotography",
+      deployLink: "https://thewisesailor.github.io/ReactJRPhotography/",
+    },
+    {
       title:"Moore Real Estate (in the process of debugging)",
       imgUrl:Moore,
       githubLink:"https://github.com/TheWiseSailor/Moore2.0",
       deployLink:"https://thewisesailor.github.io/Moore2.0/",
-    },
-    {
-      title: "JR Portfolio V1",
-      imgUrl: jrportfoliov1,
-      githubLink: "https://github.com/TheWiseSailor/JR-Portfolio",
-      deployLink: "https://thewisesailor.github.io/JR-Portfolio/",
     },
     {
       title: "JR Portfolio V2",
@@ -75,6 +81,13 @@ export const Portfolio = () => {
         "https://github.com/TheWiseSailor/professional-react-portfolio",
       deployLink: "",
     },
+    {
+      title: "JR Portfolio V1",
+      imgUrl: jrportfoliov1,
+      githubLink: "https://github.com/TheWiseSailor/JR-Portfolio",
+      deployLink: "https://thewisesailor.github.io/JR-Portfolio/",
+    },
+   
     {
       title: "JR Photography V1",
       imgUrl: jrphotographyv1,
@@ -88,12 +101,7 @@ export const Portfolio = () => {
       githubLink: "https://github.com/TheWiseSailor/JR-Photography-v2",
       deployLink: "https://thewisesailor.github.io/JR-Photography-v2/",
     },
-    {
-      title: "React Photography",
-      imgUrl: ReactPhotography,
-      githubLink: "https://github.com/TheWiseSailor/ReactJRPhotography",
-      deployLink: "https://thewisesailor.github.io/ReactJRPhotography/",
-    },
+   
     {
       title: "Weather Dashboard",
       imgUrl: WeatherDashboard,
@@ -205,10 +213,9 @@ export const Portfolio = () => {
                         <Row>
                           <ProjectDetails
                             key={1} // Adjust the key as needed for uniqueness
-                            title="JE.CO Coming soon to you soon!"
-                            imgUrl={JE}
-                            githubLink="https://github.com/TheWiseSailor/JE"
-                            deployLink="https://thewisesailor.github.io/JE/"
+                            title="More projects coming soon!"
+                            imgUrl={Projects}
+                    
                           />
 
                           {/* Project NewCastle */}
