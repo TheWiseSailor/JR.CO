@@ -93,7 +93,7 @@ export const NavBar = () => {
               <a href="https://www.snapchat.com/add/asianstudmuffin?share_id=gTwL0A4CTtWL7ns+pfxyvg&locale=en_US">
                 <img src={snapchat} alt="Snapchat" />
               </a>
-              <a href="https://www.instagram.com/joseph_rudasill_">
+              <a href="https://www.instagram.com/_joseph_rudasill_">
                 <img src={instagram} alt="Instagram" />
               </a>
             </div>
