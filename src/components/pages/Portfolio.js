@@ -21,6 +21,8 @@ import ReactPhotography from "../../assets/img/Website.jpg";
 import VenuesXP from "../../assets/img/VenuesXP.png";
 import Moore from "../../assets/img/Moore-Realestate.png";
 import JE from "../../assets/img/JE.png";
+import CE from "../../assets/img/Carter.png";
+
 import "animate.css";
 import "animate.css";
 
@@ -56,6 +58,12 @@ export const Portfolio = () => {
   ];
 
   const projects = [
+    {
+      title:"CM.CO",
+      imgUrl:CE,
+    githubLink:"https://github.com/TheWiseSailor/CM.CO",
+    deployLink:"https://thewisesailor.github.io/CM.CO/",
+    },
     {
       title:"JE.CO",
       imgUrl:JE,
