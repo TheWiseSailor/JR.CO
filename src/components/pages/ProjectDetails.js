@@ -40,3 +40,4 @@ export const ProjectDetails = ({
   );
 };
 //get started on new portfolio
+//busy day didnt do it
