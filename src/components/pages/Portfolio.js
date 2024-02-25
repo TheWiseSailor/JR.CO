@@ -22,6 +22,7 @@ import VenuesXP from "../../assets/img/VenuesXP.png";
 import Moore from "../../assets/img/Moore-Realestate.png";
 import JE from "../../assets/img/JE.png";
 import CE from "../../assets/img/Carter.png";
+import HE from "../../assets/img/Holly.png";
 
 import "animate.css";
 import "animate.css";
@@ -58,6 +59,12 @@ export const Portfolio = () => {
   ];
 
   const projects = [
+    {
+      title:"Holly.CO",
+      imgUrl:HE,
+    githubLink:"https://github.com/TheWiseSailor/Holly.CO",
+    deployLink:"https://thewisesailor.github.io/Holly.CO/",
+    },
     {
       title:"CM.CO",
       imgUrl:CE,
